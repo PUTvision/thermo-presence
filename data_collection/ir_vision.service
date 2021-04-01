@@ -1,0 +1,21 @@
+# ir_vision.service
+
+[Unit]
+Description= ir_vision data collector
+
+[Service]
+Type= simple
+Restart=on-failure
+RestartSec=5s
+User= pi
+
+WatchdogSec=7200
+Restart=always
+
+ExecStart= /home/pi/Projects/ir_vision/data_collection/start_ir_vision_service.sh &
+
+TimeoutStopSec= 180
+ExecStop= /home/pi/Projects/ir_vision/data_collection/stop_ir_vision_service.sh
+
+[Install]
+WantedBy= multi-user.target
