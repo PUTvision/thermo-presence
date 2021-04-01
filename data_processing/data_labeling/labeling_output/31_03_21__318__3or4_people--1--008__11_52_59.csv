@@ -1,5 +1,5 @@
 {
-  "output_file_path": "/home/przemek/Projects/thermo-presence/ir_vision/data_processing/data_labeling/labeling_output/31_03_21__318__3or4_people--1--008__11_52_59.csv",
+  "output_file_path": "/home/przemek/Projects/thermo-presence/thermo-presence/data_processing/data_labeling/labeling_output/31_03_21__318__3or4_people--1--008__11_52_59.csv",
   "data_batch_dir_path": "/media/data/temporary/thermo-presence/31_03_21__318__3or4_people/1/008__11_52_59",
   "annotations": {
     "0": {
@@ -158,10 +158,38 @@
       "raw_frame_data": null
     },
     "7": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
-      "centre_points": [],
-      "rectangles": [],
+      "centre_points": [
+        [
+          25.5625,
+          8.25
+        ],
+        [
+          5.9375,
+          15.25
+        ],
+        [
+          22.3125,
+          16.1875
+        ],
+        [
+          7.5,
+          7.0
+        ]
+      ],
+      "rectangles": [
+        [
+          [
+            18.625,
+            5.25
+          ],
+          [
+            13.5,
+            15.5
+          ]
+        ]
+      ],
       "raw_frame_data": null
     },
     "8": {

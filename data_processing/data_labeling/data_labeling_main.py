@@ -3,7 +3,7 @@ import os
 
 import pymsgbox
 
-from annotation_collector import AnnotationCollector
+from data_labeling.annotation_collector import AnnotationCollector
 from data_labeling import labeling_config
 from data_labeling.ir_data_scv_reader import IrDataCsvReader
 from data_labeling.rgb_video_reader import RgbVideoReader
