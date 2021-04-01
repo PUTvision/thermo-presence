@@ -7,33 +7,33 @@
       "discarded": false,
       "centre_points": [
         [
-          5.625,
-          17.4375
+          4.75,
+          4.625
         ],
         [
-          4.8125,
-          5.125
+          5.6875,
+          18.3125
         ]
       ],
       "rectangles": [
         [
           [
-            7.5625,
-            1.9375
+            8.9375,
+            14.125
           ],
           [
-            2.1875,
-            8.3125
+            2.375,
+            22.1875
           ]
         ],
         [
           [
-            9.125,
-            13.8125
+            7.1875,
+            2.3125
           ],
           [
-            2.5,
-            20.6875
+            2.375,
+            8.3125
           ]
         ]
       ],
@@ -128,15 +128,31 @@
       "raw_frame_data": null
     },
     "5": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
-      "centre_points": [],
-      "rectangles": [],
+      "centre_points": [
+        [
+          5.9375,
+          20.25
+        ]
+      ],
+      "rectangles": [
+        [
+          [
+            10.9375,
+            16.375
+          ],
+          [
+            3.9375,
+            23.125
+          ]
+        ]
+      ],
       "raw_frame_data": null
     },
     "6": {
       "accepted": false,
-      "discarded": false,
+      "discarded": true,
       "centre_points": [],
       "rectangles": [],
       "raw_frame_data": null
