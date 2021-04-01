@@ -3,6 +3,6 @@ jupyter
 matplotlib
 scipy
 numpy
-adafruit-circuitpython-mlx90640
 ipython
 opencv-python
+PyMsgBox

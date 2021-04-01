@@ -1,0 +1,369 @@
+{
+  "output_file_path": "/home/przemek/Projects/thermo-presence/ir_vision/data_processing/data_labeling/labeling_output/31_03_21__318__3or4_people--1--008__11_52_59.csv",
+  "data_batch_dir_path": "/media/data/temporary/thermo-presence/31_03_21__318__3or4_people/1/008__11_52_59",
+  "annotations": {
+    "0": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          5.625,
+          17.4375
+        ],
+        [
+          4.8125,
+          5.125
+        ]
+      ],
+      "rectangles": [
+        [
+          [
+            7.5625,
+            1.9375
+          ],
+          [
+            2.1875,
+            8.3125
+          ]
+        ],
+        [
+          [
+            9.125,
+            13.8125
+          ],
+          [
+            2.5,
+            20.6875
+          ]
+        ]
+      ],
+      "raw_frame_data": null
+    },
+    "1": {
+      "accepted": false,
+      "discarded": true,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "2": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          4.75,
+          5.25
+        ],
+        [
+          5.625,
+          17.0625
+        ]
+      ],
+      "rectangles": [
+        [
+          [
+            9.1875,
+            14.3125
+          ],
+          [
+            2.875,
+            20.4375
+          ]
+        ],
+        [
+          [
+            6.6875,
+            2.625
+          ],
+          [
+            2.375,
+            8.0625
+          ]
+        ]
+      ],
+      "raw_frame_data": null
+    },
+    "3": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          5.6875,
+          17.8125
+        ],
+        [
+          5.3125,
+          4.5
+        ]
+      ],
+      "rectangles": [
+        [
+          [
+            7.3125,
+            2.9375
+          ],
+          [
+            2.5625,
+            7.5625
+          ]
+        ],
+        [
+          [
+            8.9375,
+            14.9375
+          ],
+          [
+            2.9375,
+            20.125
+          ]
+        ]
+      ],
+      "raw_frame_data": null
+    },
+    "4": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "5": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "6": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "7": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "8": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "9": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "10": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "11": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "12": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "13": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "14": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "15": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "16": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "17": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "18": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "19": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "20": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "21": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "22": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "23": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "24": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "25": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "26": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "27": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "28": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "29": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "30": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "31": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "32": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "33": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "34": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "35": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "36": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "37": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "38": {
+      "accepted": false,
+      "discarded": false,
+      "centre_points": [],
+      "rectangles": [],
+      "raw_frame_data": null
+    }
+  }
+}
