@@ -7,7 +7,7 @@ from data_labeling import labeling_config
 
 def x_on_interpolated_image_to_raw_x(x):
     x_raw_flipped = x / labeling_config.IR_FRAME_RESIZE_MULTIPLIER
-    x_raw = config.IR_CAMERA_RESOLUTION_X - 1 - x_raw_flipped
+    x_raw = config.IR_CAMERA_RESOLUTION_X - x_raw_flipped
     return x_raw
 
 
@@ -21,7 +21,7 @@ def xy_on_interpolated_image_to_raw_xy(xy: tuple) -> tuple:
 
 
 def x_on_raw_image_to_x_on_interpolated_image(x):
-    x_flipped = config.IR_CAMERA_RESOLUTION_X - 1 - x
+    x_flipped = config.IR_CAMERA_RESOLUTION_X - x
     return round(x_flipped * labeling_config.IR_FRAME_RESIZE_MULTIPLIER)
 
 
