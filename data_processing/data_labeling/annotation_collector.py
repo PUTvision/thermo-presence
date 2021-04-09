@@ -32,6 +32,7 @@ class AnnotationCollector:
         }
         with open(self._output_file_path, 'w') as file:
             file.write(json.dumps(data_dict, indent=2))
+            file.flush()
 
     @classmethod
     def load_from_file(cls, file_path):
