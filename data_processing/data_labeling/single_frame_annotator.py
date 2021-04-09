@@ -86,13 +86,20 @@ class SingleFrameAnnotator:
         self.add_annotations_on_img(ir_frame_interpolated_with_annotation)
         self.add_annotations_on_img(ir_frame_pixel_resized_with_annotation)
 
+        window_is_shown = False
+        try:
+            window_is_shown = (cv2.getWindowProperty("rgb_frame", 0) != -1.0)
+        except:
+            pass  # windows is not shown
+
         cv2.imshow('rgb_frame', self.rgb_frame_resized)
         cv2.imshow('ir_frame_interpolated', ir_frame_interpolated_with_annotation)
         cv2.imshow('ir_frame_pixel_resized', ir_frame_pixel_resized_with_annotation)
 
-        cv2.moveWindow("rgb_frame", 10, 10)
-        cv2.moveWindow("ir_frame_interpolated", 610, 10)
-        cv2.moveWindow("ir_frame_pixel_resized", 610, 470)
+        if not window_is_shown:
+            cv2.moveWindow("rgb_frame", 10, 10)
+            cv2.moveWindow("ir_frame_interpolated", 610, 10)
+            cv2.moveWindow("ir_frame_pixel_resized", 610, 470)
 
     def get_annotation_for_frame(self) -> Tuple[KeyAction, FrameAnnotation]:
         self._draw_frame()
