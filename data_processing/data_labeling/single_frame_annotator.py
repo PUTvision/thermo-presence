@@ -1,6 +1,7 @@
 import copy
 import enum
 import logging
+import time
 from typing import Tuple
 
 import cv2
@@ -21,6 +22,7 @@ class KeyAction(enum.Enum):
     c_CLEAR = ord('c')
     z_RECTANGLE = ord('z')
     x_POINT = ord('x')
+    n_AUTOMOVE_TO_NEXT_FRAME = ord('n')
     q_QUIT = ord('q')
 
     @classmethod
@@ -43,6 +45,7 @@ class KeyAction(enum.Enum):
                f'  {KeyAction.c_CLEAR.as_char()}) clear annotation on this frame\n' \
                f'  {KeyAction.z_RECTANGLE.as_char()}) annotate person with a rectangle\n' \
                f'  {KeyAction.x_POINT.as_char()}) annotate person centre with single point\n' \
+               f'  {KeyAction.n_AUTOMOVE_TO_NEXT_FRAME.as_char()}) enable/disable automatic move to the next frame after button release\n' \
                f'  {KeyAction.q_QUIT.as_char()}) quit annotating'
 
 
@@ -52,7 +55,8 @@ class DrawingMode(enum.Enum):
 
 
 class SingleFrameAnnotator:
-    def __init__(self, ir_frame, rgb_frame, drawing_mode: DrawingMode, initial_annotations: FrameAnnotation = None):
+    def __init__(self, ir_frame, rgb_frame, drawing_mode: DrawingMode, initial_annotations: FrameAnnotation = None,
+                 automove_to_next_frame_after_mouse_released=False):
         self.ir_frame_interpolated = get_extrapolated_ir_frame_heatmap_flipped(
             frame_2d=ir_frame,
             multiplier=labeling_config.IR_FRAME_RESIZE_MULTIPLIER,
@@ -77,6 +81,8 @@ class SingleFrameAnnotator:
 
         self._button_press_location = None
         self._last_mouse_location = None
+        self._button_pressed_and_released = False
+        self.automove_to_next_frame_after_mouse_released = automove_to_next_frame_after_mouse_released  # for mode when we move to the next frame after annotaiting one point
         self.drawing_mode = drawing_mode
 
     def _draw_frame(self):
@@ -107,17 +113,28 @@ class SingleFrameAnnotator:
         cv2.setMouseCallback('ir_frame_pixel_resized', self._mouse_event)
 
         key_action = KeyAction.UNKNOWN
+
         while key_action not in [KeyAction.a_ACCEPT, KeyAction.d_DISCARD, KeyAction.e_PREVIOUS,
                                  KeyAction.r_NEXT, KeyAction.q_QUIT]:
 
-            key = cv2.waitKey(0)
-            key_action = KeyAction.from_pressed_key(key)
-            logging.info(f"Key pressed action: {key_action.name}")
+            key = cv2.waitKey(100)
+            if key == -1:
+                if self.automove_to_next_frame_after_mouse_released and self._button_pressed_and_released:
+                    key_action = KeyAction.r_NEXT  # simulate action of moving to the next frame
+                else:
+                    continue
+            else:
+                key_action = KeyAction.from_pressed_key(key)
+                logging.info(f"Key pressed action: {key_action.name}")
 
             if key_action == KeyAction.x_POINT:
                 self.drawing_mode = DrawingMode.SINGLE_POINT
             if key_action == KeyAction.z_RECTANGLE:
                 self.drawing_mode = DrawingMode.RECTANGLE
+
+            if key_action == KeyAction.n_AUTOMOVE_TO_NEXT_FRAME:
+                self.automove_to_next_frame_after_mouse_released = not self.automove_to_next_frame_after_mouse_released
+                logging.info(f"automove_to_next_frame_after_mouse_released state set to {self.automove_to_next_frame_after_mouse_released}")
 
             if key_action == KeyAction.c_CLEAR:
                 self.new_annotations = FrameAnnotation()
@@ -145,10 +162,10 @@ class SingleFrameAnnotator:
             if self._button_press_location is not None:
                 redraw = True
         elif event == cv2.EVENT_LBUTTONUP:
-            if self._button_press_location:
-                self._add_annotation(button_release_location=(x, y))
+            self._add_annotation(button_release_location=(x, y))
             self._button_press_location = None
             redraw = True
+            self._button_pressed_and_released = True
 
         if redraw:
             self._draw_frame()
@@ -159,8 +176,11 @@ class SingleFrameAnnotator:
         logging.info(f"Adding annotation at {button_press_location}, mode {drawing_mode.name}")
 
         if drawing_mode == DrawingMode.SINGLE_POINT:
-            self.new_annotations.centre_points.append(button_press_location)
+            self.new_annotations.centre_points.append(button_release_location)
         elif drawing_mode == DrawingMode.RECTANGLE:
+            if not button_press_location:
+                logging.warning("No press location!")
+                return
             self.new_annotations.rectangles.append((button_press_location, button_release_location))
 
     def add_annotations_on_img(self, img):

@@ -35,12 +35,12 @@ class AnnotationCollector:
             file.flush()
 
     @classmethod
-    def load_from_file(cls, file_path):
+    def load_from_file(cls, file_path, do_not_scale_and_reverse=False):
         item = cls(output_file_path=file_path, data_batch_dir_path=None)
         with open(file_path, 'r') as file:
             data = file.read()
         data_dict = json.loads(data)
         item._data_batch_dir_path = data_dict['data_batch_dir_path']
-        item._annotations = {int(index): FrameAnnotation.from_dict(annotation_dict) for index, annotation_dict
+        item._annotations = {int(index): FrameAnnotation.from_dict(annotation_dict, do_not_scale_and_reverse) for index, annotation_dict
                              in data_dict['annotations'].items()}
         return item

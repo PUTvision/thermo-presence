@@ -7,7 +7,9 @@ import cv2
 ROOT_DATA_DIR_PATH = ''  # directory where the raw data (recorded on Raspberry) and available on OwnCloud are stored
 
 if getpass.getuser() == 'przemek':
-    ROOT_DATA_DIR_PATH = '/media/przemek/data/ir_from_owncloud/'
+    # ROOT_DATA_DIR_PATH = '/media/przemek/data/ir_from_owncloud/'
+    ROOT_DATA_DIR_PATH = '/media/data/temporary/thermo-presence/'
+
 
 if not ROOT_DATA_DIR_PATH:
     raise Exception("Please specify root path directory of data files (ROOT_DATA_DIR_PATH in labeling_config.py)!")
@@ -38,8 +40,8 @@ SUBDIRECTORIES_TO_ANNOTATE = [
     '31_03_21__318__3or4_people/2/004__14_31_20',
     '31_03_21__318__3or4_people/2/005__14_35_20',
     '31_03_21__318__3or4_people/2/006__14_39_20',
-    '31_03_21__318__3or4_people/2/008__14_47_20',
     '31_03_21__318__3or4_people/2/007__14_43_20',
+    '31_03_21__318__3or4_people/2/008__14_47_20',
     '31_03_21__318__3or4_people/2/009__14_51_20',
     '31_03_21__318__3or4_people/2/010__14_55_20',
     '31_03_21__318__3or4_people/2/011__14_59_20',

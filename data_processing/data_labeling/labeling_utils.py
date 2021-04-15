@@ -29,7 +29,10 @@ def y_on_raw_image_to_y_on_interpolated_image(y):
     return round(y * labeling_config.IR_FRAME_RESIZE_MULTIPLIER)
 
 
-def xy_on_raw_image_to_xy_on_interpolated_image(xy: tuple) -> tuple:
+def xy_on_raw_image_to_xy_on_interpolated_image(xy: tuple, do_not_scale_and_reverse=False) -> tuple:
+    if do_not_scale_and_reverse:
+        return xy
+
     return (x_on_raw_image_to_x_on_interpolated_image(xy[0]),
             y_on_raw_image_to_y_on_interpolated_image(xy[1]))
 

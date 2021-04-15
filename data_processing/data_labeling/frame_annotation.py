@@ -27,12 +27,12 @@ class FrameAnnotation:
         return data_dict
 
     @classmethod
-    def from_dict(cls, data_dict):
+    def from_dict(cls, data_dict, do_not_scale_and_reverse=False):
         item = cls()
         item.__dict__.update(data_dict)
         for i, point in enumerate(item.centre_points):
-            item.centre_points[i] = xy_on_raw_image_to_xy_on_interpolated_image(point)
+            item.centre_points[i] = xy_on_raw_image_to_xy_on_interpolated_image(point, do_not_scale_and_reverse)
         for i, rectangle in enumerate(item.rectangles):
-            item.rectangles[i] = (xy_on_raw_image_to_xy_on_interpolated_image(rectangle[0]),
-                                  xy_on_raw_image_to_xy_on_interpolated_image(rectangle[1]))
+            item.rectangles[i] = (xy_on_raw_image_to_xy_on_interpolated_image(rectangle[0], do_not_scale_and_reverse),
+                                  xy_on_raw_image_to_xy_on_interpolated_image(rectangle[1], do_not_scale_and_reverse))
         return item

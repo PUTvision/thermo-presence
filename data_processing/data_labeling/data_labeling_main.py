@@ -23,6 +23,7 @@ def run_labeling_for_data_batch(data_batch_dir_path, output_file_path):
                  f'Number of RGB frames: {number_of_rgb_frames}')
     rgb_to_ir_frames_ratio = number_of_rgb_frames / number_of_ir_frames
     drawing_mode = DrawingMode.SINGLE_POINT
+    automove_to_next_frame_after_mouse_released = False
 
     annotation_collector = _create_annotation_collector(output_file_path=output_file_path,
                                                         data_batch_dir_path=data_batch_dir_path)
@@ -42,9 +43,11 @@ def run_labeling_for_data_batch(data_batch_dir_path, output_file_path):
             ir_frame=ir_frame,
             rgb_frame=rgb_frame,
             drawing_mode=drawing_mode,
+            automove_to_next_frame_after_mouse_released=automove_to_next_frame_after_mouse_released,
             initial_annotations=annotation_collector.get_annotation(ir_frame_index))
         key_action, new_annotation = frame_annotator.get_annotation_for_frame()
         drawing_mode = frame_annotator.drawing_mode
+        automove_to_next_frame_after_mouse_released = frame_annotator.automove_to_next_frame_after_mouse_released
 
         # maybe add raw_data in the file with labels?
         # new_annotiation.raw_frame_data = ir_data_csv_reader.get_raw_frame_data(ir_frame_index)
