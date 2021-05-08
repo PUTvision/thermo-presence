@@ -3,7 +3,7 @@
   "data_batch_dir_path": "/media/data/temporary/thermo-presence/05_05_2021__0to5_people/014__13_50_21",
   "annotations": {
     "0": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -19,7 +19,7 @@
       "raw_frame_data": null
     },
     "1": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -35,7 +35,7 @@
       "raw_frame_data": null
     },
     "2": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -51,7 +51,7 @@
       "raw_frame_data": null
     },
     "3": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -67,7 +67,7 @@
       "raw_frame_data": null
     },
     "4": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -83,7 +83,7 @@
       "raw_frame_data": null
     },
     "5": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -99,7 +99,7 @@
       "raw_frame_data": null
     },
     "6": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -115,7 +115,7 @@
       "raw_frame_data": null
     },
     "7": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -131,7 +131,7 @@
       "raw_frame_data": null
     },
     "8": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -147,7 +147,7 @@
       "raw_frame_data": null
     },
     "9": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -163,7 +163,7 @@
       "raw_frame_data": null
     },
     "10": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -179,7 +179,7 @@
       "raw_frame_data": null
     },
     "11": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -195,7 +195,7 @@
       "raw_frame_data": null
     },
     "12": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -211,7 +211,7 @@
       "raw_frame_data": null
     },
     "13": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -227,7 +227,7 @@
       "raw_frame_data": null
     },
     "14": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -243,7 +243,7 @@
       "raw_frame_data": null
     },
     "15": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -259,7 +259,7 @@
       "raw_frame_data": null
     },
     "16": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -275,7 +275,7 @@
       "raw_frame_data": null
     },
     "17": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -291,7 +291,7 @@
       "raw_frame_data": null
     },
     "18": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -307,7 +307,7 @@
       "raw_frame_data": null
     },
     "19": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -323,7 +323,7 @@
       "raw_frame_data": null
     },
     "20": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -339,7 +339,7 @@
       "raw_frame_data": null
     },
     "21": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -355,7 +355,7 @@
       "raw_frame_data": null
     },
     "22": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -371,7 +371,7 @@
       "raw_frame_data": null
     },
     "23": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -387,7 +387,7 @@
       "raw_frame_data": null
     },
     "24": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -403,7 +403,7 @@
       "raw_frame_data": null
     },
     "25": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -419,7 +419,7 @@
       "raw_frame_data": null
     },
     "26": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -435,7 +435,7 @@
       "raw_frame_data": null
     },
     "27": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -451,7 +451,7 @@
       "raw_frame_data": null
     },
     "28": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -467,7 +467,7 @@
       "raw_frame_data": null
     },
     "29": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -483,7 +483,7 @@
       "raw_frame_data": null
     },
     "30": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -499,7 +499,7 @@
       "raw_frame_data": null
     },
     "31": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -515,7 +515,7 @@
       "raw_frame_data": null
     },
     "32": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -531,7 +531,7 @@
       "raw_frame_data": null
     },
     "33": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -547,7 +547,7 @@
       "raw_frame_data": null
     },
     "34": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -563,7 +563,7 @@
       "raw_frame_data": null
     },
     "35": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -579,7 +579,7 @@
       "raw_frame_data": null
     },
     "36": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -595,7 +595,7 @@
       "raw_frame_data": null
     },
     "37": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -611,7 +611,7 @@
       "raw_frame_data": null
     },
     "38": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -627,7 +627,7 @@
       "raw_frame_data": null
     },
     "39": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -643,7 +643,7 @@
       "raw_frame_data": null
     },
     "40": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -659,7 +659,7 @@
       "raw_frame_data": null
     },
     "41": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -675,7 +675,7 @@
       "raw_frame_data": null
     },
     "42": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -691,7 +691,7 @@
       "raw_frame_data": null
     },
     "43": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -707,7 +707,7 @@
       "raw_frame_data": null
     },
     "44": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -723,7 +723,7 @@
       "raw_frame_data": null
     },
     "45": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -739,7 +739,7 @@
       "raw_frame_data": null
     },
     "46": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -755,7 +755,7 @@
       "raw_frame_data": null
     },
     "47": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -771,7 +771,7 @@
       "raw_frame_data": null
     },
     "48": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -787,7 +787,7 @@
       "raw_frame_data": null
     },
     "49": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -803,7 +803,7 @@
       "raw_frame_data": null
     },
     "50": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -819,7 +819,7 @@
       "raw_frame_data": null
     },
     "51": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -835,7 +835,7 @@
       "raw_frame_data": null
     },
     "52": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -855,7 +855,7 @@
       "raw_frame_data": null
     },
     "53": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -875,7 +875,7 @@
       "raw_frame_data": null
     },
     "54": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -895,7 +895,7 @@
       "raw_frame_data": null
     },
     "55": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -915,7 +915,7 @@
       "raw_frame_data": null
     },
     "56": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -935,7 +935,7 @@
       "raw_frame_data": null
     },
     "57": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -955,7 +955,7 @@
       "raw_frame_data": null
     },
     "58": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -975,7 +975,7 @@
       "raw_frame_data": null
     },
     "59": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -995,7 +995,7 @@
       "raw_frame_data": null
     },
     "60": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1015,7 +1015,7 @@
       "raw_frame_data": null
     },
     "61": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1035,7 +1035,7 @@
       "raw_frame_data": null
     },
     "62": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1055,7 +1055,7 @@
       "raw_frame_data": null
     },
     "63": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1075,7 +1075,7 @@
       "raw_frame_data": null
     },
     "64": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1095,7 +1095,7 @@
       "raw_frame_data": null
     },
     "65": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1115,7 +1115,7 @@
       "raw_frame_data": null
     },
     "66": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1135,7 +1135,7 @@
       "raw_frame_data": null
     },
     "67": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1155,7 +1155,7 @@
       "raw_frame_data": null
     },
     "68": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1175,7 +1175,7 @@
       "raw_frame_data": null
     },
     "69": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1195,7 +1195,7 @@
       "raw_frame_data": null
     },
     "70": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1215,7 +1215,7 @@
       "raw_frame_data": null
     },
     "71": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1235,7 +1235,7 @@
       "raw_frame_data": null
     },
     "72": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1255,7 +1255,7 @@
       "raw_frame_data": null
     },
     "73": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1275,7 +1275,7 @@
       "raw_frame_data": null
     },
     "74": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1295,7 +1295,7 @@
       "raw_frame_data": null
     },
     "75": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1315,7 +1315,7 @@
       "raw_frame_data": null
     },
     "76": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1335,7 +1335,7 @@
       "raw_frame_data": null
     },
     "77": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1355,7 +1355,7 @@
       "raw_frame_data": null
     },
     "78": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1375,7 +1375,7 @@
       "raw_frame_data": null
     },
     "79": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1395,7 +1395,7 @@
       "raw_frame_data": null
     },
     "80": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1415,7 +1415,7 @@
       "raw_frame_data": null
     },
     "81": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1435,7 +1435,7 @@
       "raw_frame_data": null
     },
     "82": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1455,7 +1455,7 @@
       "raw_frame_data": null
     },
     "83": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1475,7 +1475,7 @@
       "raw_frame_data": null
     },
     "84": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1495,7 +1495,7 @@
       "raw_frame_data": null
     },
     "85": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1515,7 +1515,7 @@
       "raw_frame_data": null
     },
     "86": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1535,7 +1535,7 @@
       "raw_frame_data": null
     },
     "87": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1555,7 +1555,7 @@
       "raw_frame_data": null
     },
     "88": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1575,7 +1575,7 @@
       "raw_frame_data": null
     },
     "89": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1595,7 +1595,7 @@
       "raw_frame_data": null
     },
     "90": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1615,7 +1615,7 @@
       "raw_frame_data": null
     },
     "91": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1635,7 +1635,7 @@
       "raw_frame_data": null
     },
     "92": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1655,7 +1655,7 @@
       "raw_frame_data": null
     },
     "93": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1675,7 +1675,7 @@
       "raw_frame_data": null
     },
     "94": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1695,7 +1695,7 @@
       "raw_frame_data": null
     },
     "95": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1715,7 +1715,7 @@
       "raw_frame_data": null
     },
     "96": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1735,7 +1735,7 @@
       "raw_frame_data": null
     },
     "97": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1755,7 +1755,7 @@
       "raw_frame_data": null
     },
     "98": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1775,7 +1775,7 @@
       "raw_frame_data": null
     },
     "99": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1795,7 +1795,7 @@
       "raw_frame_data": null
     },
     "100": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1815,7 +1815,7 @@
       "raw_frame_data": null
     },
     "101": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1835,7 +1835,7 @@
       "raw_frame_data": null
     },
     "102": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1855,7 +1855,7 @@
       "raw_frame_data": null
     },
     "103": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1875,7 +1875,7 @@
       "raw_frame_data": null
     },
     "104": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1895,7 +1895,7 @@
       "raw_frame_data": null
     },
     "105": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1915,7 +1915,7 @@
       "raw_frame_data": null
     },
     "106": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1935,7 +1935,7 @@
       "raw_frame_data": null
     },
     "107": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1955,7 +1955,7 @@
       "raw_frame_data": null
     },
     "108": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1975,7 +1975,7 @@
       "raw_frame_data": null
     },
     "109": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -1995,7 +1995,7 @@
       "raw_frame_data": null
     },
     "110": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2015,7 +2015,7 @@
       "raw_frame_data": null
     },
     "111": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2035,7 +2035,7 @@
       "raw_frame_data": null
     },
     "112": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2055,7 +2055,7 @@
       "raw_frame_data": null
     },
     "113": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2075,7 +2075,7 @@
       "raw_frame_data": null
     },
     "114": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2095,7 +2095,7 @@
       "raw_frame_data": null
     },
     "115": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2115,7 +2115,7 @@
       "raw_frame_data": null
     },
     "116": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2135,7 +2135,7 @@
       "raw_frame_data": null
     },
     "117": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2155,7 +2155,7 @@
       "raw_frame_data": null
     },
     "118": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2175,7 +2175,7 @@
       "raw_frame_data": null
     },
     "119": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2195,7 +2195,7 @@
       "raw_frame_data": null
     },
     "120": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2215,7 +2215,7 @@
       "raw_frame_data": null
     },
     "121": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2235,7 +2235,7 @@
       "raw_frame_data": null
     },
     "122": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2255,7 +2255,7 @@
       "raw_frame_data": null
     },
     "123": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2275,7 +2275,7 @@
       "raw_frame_data": null
     },
     "124": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2295,7 +2295,7 @@
       "raw_frame_data": null
     },
     "125": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2315,7 +2315,7 @@
       "raw_frame_data": null
     },
     "126": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2335,7 +2335,7 @@
       "raw_frame_data": null
     },
     "127": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2355,7 +2355,7 @@
       "raw_frame_data": null
     },
     "128": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2375,7 +2375,7 @@
       "raw_frame_data": null
     },
     "129": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2395,7 +2395,7 @@
       "raw_frame_data": null
     },
     "130": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2415,7 +2415,7 @@
       "raw_frame_data": null
     },
     "131": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2435,7 +2435,7 @@
       "raw_frame_data": null
     },
     "132": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2455,7 +2455,7 @@
       "raw_frame_data": null
     },
     "133": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2475,7 +2475,7 @@
       "raw_frame_data": null
     },
     "134": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2495,7 +2495,7 @@
       "raw_frame_data": null
     },
     "135": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2515,7 +2515,7 @@
       "raw_frame_data": null
     },
     "136": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2535,7 +2535,7 @@
       "raw_frame_data": null
     },
     "137": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2555,7 +2555,7 @@
       "raw_frame_data": null
     },
     "138": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2575,7 +2575,7 @@
       "raw_frame_data": null
     },
     "139": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2595,7 +2595,7 @@
       "raw_frame_data": null
     },
     "140": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2615,7 +2615,7 @@
       "raw_frame_data": null
     },
     "141": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2635,7 +2635,7 @@
       "raw_frame_data": null
     },
     "142": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2655,7 +2655,7 @@
       "raw_frame_data": null
     },
     "143": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2675,7 +2675,7 @@
       "raw_frame_data": null
     },
     "144": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2695,7 +2695,7 @@
       "raw_frame_data": null
     },
     "145": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2715,7 +2715,7 @@
       "raw_frame_data": null
     },
     "146": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2735,7 +2735,7 @@
       "raw_frame_data": null
     },
     "147": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2755,7 +2755,7 @@
       "raw_frame_data": null
     },
     "148": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2775,7 +2775,7 @@
       "raw_frame_data": null
     },
     "149": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2795,7 +2795,7 @@
       "raw_frame_data": null
     },
     "150": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2815,7 +2815,7 @@
       "raw_frame_data": null
     },
     "151": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2835,7 +2835,7 @@
       "raw_frame_data": null
     },
     "152": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2855,7 +2855,7 @@
       "raw_frame_data": null
     },
     "153": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2875,7 +2875,7 @@
       "raw_frame_data": null
     },
     "154": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2895,7 +2895,7 @@
       "raw_frame_data": null
     },
     "155": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2915,7 +2915,7 @@
       "raw_frame_data": null
     },
     "156": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2935,7 +2935,7 @@
       "raw_frame_data": null
     },
     "157": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2955,7 +2955,7 @@
       "raw_frame_data": null
     },
     "158": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2975,7 +2975,7 @@
       "raw_frame_data": null
     },
     "159": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -2995,7 +2995,7 @@
       "raw_frame_data": null
     },
     "160": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3015,7 +3015,7 @@
       "raw_frame_data": null
     },
     "161": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3035,7 +3035,7 @@
       "raw_frame_data": null
     },
     "162": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3055,7 +3055,7 @@
       "raw_frame_data": null
     },
     "163": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3075,7 +3075,7 @@
       "raw_frame_data": null
     },
     "164": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3095,7 +3095,7 @@
       "raw_frame_data": null
     },
     "165": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3115,7 +3115,7 @@
       "raw_frame_data": null
     },
     "166": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3135,7 +3135,7 @@
       "raw_frame_data": null
     },
     "167": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3155,7 +3155,7 @@
       "raw_frame_data": null
     },
     "168": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3175,7 +3175,7 @@
       "raw_frame_data": null
     },
     "169": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3195,7 +3195,7 @@
       "raw_frame_data": null
     },
     "170": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3215,7 +3215,7 @@
       "raw_frame_data": null
     },
     "171": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3235,7 +3235,7 @@
       "raw_frame_data": null
     },
     "172": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3255,7 +3255,7 @@
       "raw_frame_data": null
     },
     "173": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3275,7 +3275,7 @@
       "raw_frame_data": null
     },
     "174": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3295,7 +3295,7 @@
       "raw_frame_data": null
     },
     "175": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3315,7 +3315,7 @@
       "raw_frame_data": null
     },
     "176": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3335,7 +3335,7 @@
       "raw_frame_data": null
     },
     "177": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3355,7 +3355,7 @@
       "raw_frame_data": null
     },
     "178": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3375,7 +3375,7 @@
       "raw_frame_data": null
     },
     "179": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3395,7 +3395,7 @@
       "raw_frame_data": null
     },
     "180": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3415,7 +3415,7 @@
       "raw_frame_data": null
     },
     "181": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3435,7 +3435,7 @@
       "raw_frame_data": null
     },
     "182": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3455,7 +3455,7 @@
       "raw_frame_data": null
     },
     "183": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3475,7 +3475,7 @@
       "raw_frame_data": null
     },
     "184": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3495,7 +3495,7 @@
       "raw_frame_data": null
     },
     "185": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3515,7 +3515,7 @@
       "raw_frame_data": null
     },
     "186": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3535,7 +3535,7 @@
       "raw_frame_data": null
     },
     "187": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3555,7 +3555,7 @@
       "raw_frame_data": null
     },
     "188": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3575,7 +3575,7 @@
       "raw_frame_data": null
     },
     "189": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3595,7 +3595,7 @@
       "raw_frame_data": null
     },
     "190": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3615,7 +3615,7 @@
       "raw_frame_data": null
     },
     "191": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3635,7 +3635,7 @@
       "raw_frame_data": null
     },
     "192": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3655,7 +3655,7 @@
       "raw_frame_data": null
     },
     "193": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3675,7 +3675,7 @@
       "raw_frame_data": null
     },
     "194": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3691,7 +3691,7 @@
       "raw_frame_data": null
     },
     "195": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3707,7 +3707,7 @@
       "raw_frame_data": null
     },
     "196": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3723,7 +3723,7 @@
       "raw_frame_data": null
     },
     "197": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3739,7 +3739,7 @@
       "raw_frame_data": null
     },
     "198": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3755,7 +3755,7 @@
       "raw_frame_data": null
     },
     "199": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3771,7 +3771,7 @@
       "raw_frame_data": null
     },
     "200": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3787,7 +3787,7 @@
       "raw_frame_data": null
     },
     "201": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3803,7 +3803,7 @@
       "raw_frame_data": null
     },
     "202": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3819,7 +3819,7 @@
       "raw_frame_data": null
     },
     "203": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3835,7 +3835,7 @@
       "raw_frame_data": null
     },
     "204": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3851,7 +3851,7 @@
       "raw_frame_data": null
     },
     "205": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3871,7 +3871,7 @@
       "raw_frame_data": null
     },
     "206": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3887,7 +3887,7 @@
       "raw_frame_data": null
     },
     "207": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3903,7 +3903,7 @@
       "raw_frame_data": null
     },
     "208": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3919,7 +3919,7 @@
       "raw_frame_data": null
     },
     "209": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3935,7 +3935,7 @@
       "raw_frame_data": null
     },
     "210": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3951,7 +3951,7 @@
       "raw_frame_data": null
     },
     "211": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3967,7 +3967,7 @@
       "raw_frame_data": null
     },
     "212": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -3987,7 +3987,7 @@
       "raw_frame_data": null
     },
     "213": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4007,7 +4007,7 @@
       "raw_frame_data": null
     },
     "214": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4023,7 +4023,7 @@
       "raw_frame_data": null
     },
     "215": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4039,7 +4039,7 @@
       "raw_frame_data": null
     },
     "216": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4055,7 +4055,7 @@
       "raw_frame_data": null
     },
     "217": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4071,7 +4071,7 @@
       "raw_frame_data": null
     },
     "218": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4087,7 +4087,7 @@
       "raw_frame_data": null
     },
     "219": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4103,7 +4103,7 @@
       "raw_frame_data": null
     },
     "220": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4119,7 +4119,7 @@
       "raw_frame_data": null
     },
     "221": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4135,7 +4135,7 @@
       "raw_frame_data": null
     },
     "222": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4151,7 +4151,7 @@
       "raw_frame_data": null
     },
     "223": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4167,7 +4167,7 @@
       "raw_frame_data": null
     },
     "224": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4183,7 +4183,7 @@
       "raw_frame_data": null
     },
     "225": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4199,7 +4199,7 @@
       "raw_frame_data": null
     },
     "226": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4215,7 +4215,7 @@
       "raw_frame_data": null
     },
     "227": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4231,7 +4231,7 @@
       "raw_frame_data": null
     },
     "228": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4247,7 +4247,7 @@
       "raw_frame_data": null
     },
     "229": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4263,7 +4263,7 @@
       "raw_frame_data": null
     },
     "230": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4279,7 +4279,7 @@
       "raw_frame_data": null
     },
     "231": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4295,7 +4295,7 @@
       "raw_frame_data": null
     },
     "232": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4311,7 +4311,7 @@
       "raw_frame_data": null
     },
     "233": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4327,7 +4327,7 @@
       "raw_frame_data": null
     },
     "234": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4343,7 +4343,7 @@
       "raw_frame_data": null
     },
     "235": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4359,7 +4359,7 @@
       "raw_frame_data": null
     },
     "236": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4375,7 +4375,7 @@
       "raw_frame_data": null
     },
     "237": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4391,7 +4391,7 @@
       "raw_frame_data": null
     },
     "238": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4403,7 +4403,7 @@
       "raw_frame_data": null
     },
     "239": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4415,7 +4415,7 @@
       "raw_frame_data": null
     },
     "240": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4427,7 +4427,7 @@
       "raw_frame_data": null
     },
     "241": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4439,7 +4439,7 @@
       "raw_frame_data": null
     },
     "242": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4451,7 +4451,7 @@
       "raw_frame_data": null
     },
     "243": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4463,7 +4463,7 @@
       "raw_frame_data": null
     },
     "244": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4475,7 +4475,7 @@
       "raw_frame_data": null
     },
     "245": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4487,7 +4487,7 @@
       "raw_frame_data": null
     },
     "246": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4499,7 +4499,7 @@
       "raw_frame_data": null
     },
     "247": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4511,7 +4511,7 @@
       "raw_frame_data": null
     },
     "248": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4523,7 +4523,7 @@
       "raw_frame_data": null
     },
     "249": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4535,7 +4535,7 @@
       "raw_frame_data": null
     },
     "250": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4547,7 +4547,7 @@
       "raw_frame_data": null
     },
     "251": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4559,7 +4559,7 @@
       "raw_frame_data": null
     },
     "252": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4571,7 +4571,7 @@
       "raw_frame_data": null
     },
     "253": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4583,7 +4583,7 @@
       "raw_frame_data": null
     },
     "254": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4595,7 +4595,7 @@
       "raw_frame_data": null
     },
     "255": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4607,7 +4607,7 @@
       "raw_frame_data": null
     },
     "256": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4619,7 +4619,7 @@
       "raw_frame_data": null
     },
     "257": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4631,7 +4631,7 @@
       "raw_frame_data": null
     },
     "258": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4643,7 +4643,7 @@
       "raw_frame_data": null
     },
     "259": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4655,7 +4655,7 @@
       "raw_frame_data": null
     },
     "260": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4667,7 +4667,7 @@
       "raw_frame_data": null
     },
     "261": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4679,7 +4679,7 @@
       "raw_frame_data": null
     },
     "262": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4691,7 +4691,7 @@
       "raw_frame_data": null
     },
     "263": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4703,7 +4703,7 @@
       "raw_frame_data": null
     },
     "264": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4715,7 +4715,7 @@
       "raw_frame_data": null
     },
     "265": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4727,7 +4727,7 @@
       "raw_frame_data": null
     },
     "266": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4739,7 +4739,7 @@
       "raw_frame_data": null
     },
     "267": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4751,7 +4751,7 @@
       "raw_frame_data": null
     },
     "268": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4763,7 +4763,7 @@
       "raw_frame_data": null
     },
     "269": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4775,7 +4775,7 @@
       "raw_frame_data": null
     },
     "270": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4787,7 +4787,7 @@
       "raw_frame_data": null
     },
     "271": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4799,7 +4799,7 @@
       "raw_frame_data": null
     },
     "272": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4811,7 +4811,7 @@
       "raw_frame_data": null
     },
     "273": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4823,7 +4823,7 @@
       "raw_frame_data": null
     },
     "274": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4835,7 +4835,7 @@
       "raw_frame_data": null
     },
     "275": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4847,7 +4847,7 @@
       "raw_frame_data": null
     },
     "276": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4859,7 +4859,7 @@
       "raw_frame_data": null
     },
     "277": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4871,7 +4871,7 @@
       "raw_frame_data": null
     },
     "278": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4883,7 +4883,7 @@
       "raw_frame_data": null
     },
     "279": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4895,7 +4895,7 @@
       "raw_frame_data": null
     },
     "280": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4907,7 +4907,7 @@
       "raw_frame_data": null
     },
     "281": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4919,7 +4919,7 @@
       "raw_frame_data": null
     },
     "282": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4931,7 +4931,7 @@
       "raw_frame_data": null
     },
     "283": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4943,7 +4943,7 @@
       "raw_frame_data": null
     },
     "284": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4955,7 +4955,7 @@
       "raw_frame_data": null
     },
     "285": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4967,7 +4967,7 @@
       "raw_frame_data": null
     },
     "286": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4979,7 +4979,7 @@
       "raw_frame_data": null
     },
     "287": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -4991,7 +4991,7 @@
       "raw_frame_data": null
     },
     "288": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5003,7 +5003,7 @@
       "raw_frame_data": null
     },
     "289": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5015,7 +5015,7 @@
       "raw_frame_data": null
     },
     "290": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5027,7 +5027,7 @@
       "raw_frame_data": null
     },
     "291": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5039,7 +5039,7 @@
       "raw_frame_data": null
     },
     "292": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5051,7 +5051,7 @@
       "raw_frame_data": null
     },
     "293": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5063,7 +5063,7 @@
       "raw_frame_data": null
     },
     "294": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5075,7 +5075,7 @@
       "raw_frame_data": null
     },
     "295": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5087,7 +5087,7 @@
       "raw_frame_data": null
     },
     "296": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5099,7 +5099,7 @@
       "raw_frame_data": null
     },
     "297": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5111,7 +5111,7 @@
       "raw_frame_data": null
     },
     "298": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5123,7 +5123,7 @@
       "raw_frame_data": null
     },
     "299": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5135,7 +5135,7 @@
       "raw_frame_data": null
     },
     "300": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5147,7 +5147,7 @@
       "raw_frame_data": null
     },
     "301": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5159,7 +5159,7 @@
       "raw_frame_data": null
     },
     "302": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5171,7 +5171,7 @@
       "raw_frame_data": null
     },
     "303": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5183,7 +5183,7 @@
       "raw_frame_data": null
     },
     "304": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5195,7 +5195,7 @@
       "raw_frame_data": null
     },
     "305": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5207,7 +5207,7 @@
       "raw_frame_data": null
     },
     "306": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5219,7 +5219,7 @@
       "raw_frame_data": null
     },
     "307": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5231,7 +5231,7 @@
       "raw_frame_data": null
     },
     "308": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5243,7 +5243,7 @@
       "raw_frame_data": null
     },
     "309": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5255,7 +5255,7 @@
       "raw_frame_data": null
     },
     "310": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5267,7 +5267,7 @@
       "raw_frame_data": null
     },
     "311": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5279,7 +5279,7 @@
       "raw_frame_data": null
     },
     "312": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5291,7 +5291,7 @@
       "raw_frame_data": null
     },
     "313": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5303,7 +5303,7 @@
       "raw_frame_data": null
     },
     "314": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5315,7 +5315,7 @@
       "raw_frame_data": null
     },
     "315": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5327,7 +5327,7 @@
       "raw_frame_data": null
     },
     "316": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5339,7 +5339,7 @@
       "raw_frame_data": null
     },
     "317": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5351,7 +5351,7 @@
       "raw_frame_data": null
     },
     "318": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5363,7 +5363,7 @@
       "raw_frame_data": null
     },
     "319": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5375,7 +5375,7 @@
       "raw_frame_data": null
     },
     "320": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5387,7 +5387,7 @@
       "raw_frame_data": null
     },
     "321": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5399,7 +5399,7 @@
       "raw_frame_data": null
     },
     "322": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5411,7 +5411,7 @@
       "raw_frame_data": null
     },
     "323": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5423,7 +5423,7 @@
       "raw_frame_data": null
     },
     "324": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5435,7 +5435,7 @@
       "raw_frame_data": null
     },
     "325": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5447,7 +5447,7 @@
       "raw_frame_data": null
     },
     "326": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5459,7 +5459,7 @@
       "raw_frame_data": null
     },
     "327": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5471,7 +5471,7 @@
       "raw_frame_data": null
     },
     "328": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5483,7 +5483,7 @@
       "raw_frame_data": null
     },
     "329": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5495,7 +5495,7 @@
       "raw_frame_data": null
     },
     "330": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5507,7 +5507,7 @@
       "raw_frame_data": null
     },
     "331": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5519,7 +5519,7 @@
       "raw_frame_data": null
     },
     "332": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5531,7 +5531,7 @@
       "raw_frame_data": null
     },
     "333": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5543,7 +5543,7 @@
       "raw_frame_data": null
     },
     "334": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5555,7 +5555,7 @@
       "raw_frame_data": null
     },
     "335": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5567,7 +5567,7 @@
       "raw_frame_data": null
     },
     "336": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5579,7 +5579,7 @@
       "raw_frame_data": null
     },
     "337": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5591,7 +5591,7 @@
       "raw_frame_data": null
     },
     "338": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5603,7 +5603,7 @@
       "raw_frame_data": null
     },
     "339": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5615,7 +5615,7 @@
       "raw_frame_data": null
     },
     "340": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5627,7 +5627,7 @@
       "raw_frame_data": null
     },
     "341": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5639,7 +5639,7 @@
       "raw_frame_data": null
     },
     "342": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5651,7 +5651,7 @@
       "raw_frame_data": null
     },
     "343": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5663,7 +5663,7 @@
       "raw_frame_data": null
     },
     "344": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5675,7 +5675,7 @@
       "raw_frame_data": null
     },
     "345": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5687,7 +5687,7 @@
       "raw_frame_data": null
     },
     "346": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5699,7 +5699,7 @@
       "raw_frame_data": null
     },
     "347": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5711,7 +5711,7 @@
       "raw_frame_data": null
     },
     "348": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5723,7 +5723,7 @@
       "raw_frame_data": null
     },
     "349": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5735,7 +5735,7 @@
       "raw_frame_data": null
     },
     "350": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5747,7 +5747,7 @@
       "raw_frame_data": null
     },
     "351": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5759,7 +5759,7 @@
       "raw_frame_data": null
     },
     "352": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5775,7 +5775,7 @@
       "raw_frame_data": null
     },
     "353": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5791,7 +5791,7 @@
       "raw_frame_data": null
     },
     "354": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5807,7 +5807,7 @@
       "raw_frame_data": null
     },
     "355": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5823,7 +5823,7 @@
       "raw_frame_data": null
     },
     "356": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5839,7 +5839,7 @@
       "raw_frame_data": null
     },
     "357": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5855,7 +5855,7 @@
       "raw_frame_data": null
     },
     "358": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5871,7 +5871,7 @@
       "raw_frame_data": null
     },
     "359": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5887,7 +5887,7 @@
       "raw_frame_data": null
     },
     "360": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5903,7 +5903,7 @@
       "raw_frame_data": null
     },
     "361": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5919,7 +5919,7 @@
       "raw_frame_data": null
     },
     "362": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5935,7 +5935,7 @@
       "raw_frame_data": null
     },
     "363": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5951,7 +5951,7 @@
       "raw_frame_data": null
     },
     "364": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5967,7 +5967,7 @@
       "raw_frame_data": null
     },
     "365": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5983,7 +5983,7 @@
       "raw_frame_data": null
     },
     "366": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -5999,7 +5999,7 @@
       "raw_frame_data": null
     },
     "367": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6015,7 +6015,7 @@
       "raw_frame_data": null
     },
     "368": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6031,7 +6031,7 @@
       "raw_frame_data": null
     },
     "369": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6047,7 +6047,7 @@
       "raw_frame_data": null
     },
     "370": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6063,7 +6063,7 @@
       "raw_frame_data": null
     },
     "371": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6083,7 +6083,7 @@
       "raw_frame_data": null
     },
     "372": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6099,7 +6099,7 @@
       "raw_frame_data": null
     },
     "373": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6115,7 +6115,7 @@
       "raw_frame_data": null
     },
     "374": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6131,7 +6131,7 @@
       "raw_frame_data": null
     },
     "375": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6147,7 +6147,7 @@
       "raw_frame_data": null
     },
     "376": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6163,7 +6163,7 @@
       "raw_frame_data": null
     },
     "377": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6179,7 +6179,7 @@
       "raw_frame_data": null
     },
     "378": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6195,7 +6195,7 @@
       "raw_frame_data": null
     },
     "379": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6211,7 +6211,7 @@
       "raw_frame_data": null
     },
     "380": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6227,7 +6227,7 @@
       "raw_frame_data": null
     },
     "381": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6243,7 +6243,7 @@
       "raw_frame_data": null
     },
     "382": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6259,7 +6259,7 @@
       "raw_frame_data": null
     },
     "383": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6275,7 +6275,7 @@
       "raw_frame_data": null
     },
     "384": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6291,7 +6291,7 @@
       "raw_frame_data": null
     },
     "385": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6307,7 +6307,7 @@
       "raw_frame_data": null
     },
     "386": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6323,7 +6323,7 @@
       "raw_frame_data": null
     },
     "387": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6339,7 +6339,7 @@
       "raw_frame_data": null
     },
     "388": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6355,7 +6355,7 @@
       "raw_frame_data": null
     },
     "389": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6371,7 +6371,7 @@
       "raw_frame_data": null
     },
     "390": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6387,7 +6387,7 @@
       "raw_frame_data": null
     },
     "391": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6403,7 +6403,7 @@
       "raw_frame_data": null
     },
     "392": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6419,7 +6419,7 @@
       "raw_frame_data": null
     },
     "393": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6435,7 +6435,7 @@
       "raw_frame_data": null
     },
     "394": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6451,7 +6451,7 @@
       "raw_frame_data": null
     },
     "395": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6467,7 +6467,7 @@
       "raw_frame_data": null
     },
     "396": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6483,7 +6483,7 @@
       "raw_frame_data": null
     },
     "397": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6499,7 +6499,7 @@
       "raw_frame_data": null
     },
     "398": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6515,7 +6515,7 @@
       "raw_frame_data": null
     },
     "399": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6531,7 +6531,7 @@
       "raw_frame_data": null
     },
     "400": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6547,7 +6547,7 @@
       "raw_frame_data": null
     },
     "401": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6563,7 +6563,7 @@
       "raw_frame_data": null
     },
     "402": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6579,7 +6579,7 @@
       "raw_frame_data": null
     },
     "403": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6595,7 +6595,7 @@
       "raw_frame_data": null
     },
     "404": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6611,7 +6611,7 @@
       "raw_frame_data": null
     },
     "405": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6627,7 +6627,7 @@
       "raw_frame_data": null
     },
     "406": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6643,7 +6643,7 @@
       "raw_frame_data": null
     },
     "407": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6659,7 +6659,7 @@
       "raw_frame_data": null
     },
     "408": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6675,7 +6675,7 @@
       "raw_frame_data": null
     },
     "409": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6691,7 +6691,7 @@
       "raw_frame_data": null
     },
     "410": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6707,7 +6707,7 @@
       "raw_frame_data": null
     },
     "411": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6723,7 +6723,7 @@
       "raw_frame_data": null
     },
     "412": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6739,7 +6739,7 @@
       "raw_frame_data": null
     },
     "413": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6755,7 +6755,7 @@
       "raw_frame_data": null
     },
     "414": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6771,7 +6771,7 @@
       "raw_frame_data": null
     },
     "415": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6787,7 +6787,7 @@
       "raw_frame_data": null
     },
     "416": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6803,7 +6803,7 @@
       "raw_frame_data": null
     },
     "417": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6819,7 +6819,7 @@
       "raw_frame_data": null
     },
     "418": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6835,7 +6835,7 @@
       "raw_frame_data": null
     },
     "419": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6851,7 +6851,7 @@
       "raw_frame_data": null
     },
     "420": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6867,7 +6867,7 @@
       "raw_frame_data": null
     },
     "421": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6883,7 +6883,7 @@
       "raw_frame_data": null
     },
     "422": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6899,7 +6899,7 @@
       "raw_frame_data": null
     },
     "423": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6915,7 +6915,7 @@
       "raw_frame_data": null
     },
     "424": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6931,7 +6931,7 @@
       "raw_frame_data": null
     },
     "425": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6947,7 +6947,7 @@
       "raw_frame_data": null
     },
     "426": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6963,7 +6963,7 @@
       "raw_frame_data": null
     },
     "427": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6979,7 +6979,7 @@
       "raw_frame_data": null
     },
     "428": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -6995,7 +6995,7 @@
       "raw_frame_data": null
     },
     "429": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7011,7 +7011,7 @@
       "raw_frame_data": null
     },
     "430": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7027,7 +7027,7 @@
       "raw_frame_data": null
     },
     "431": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7043,7 +7043,7 @@
       "raw_frame_data": null
     },
     "432": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7063,7 +7063,7 @@
       "raw_frame_data": null
     },
     "433": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7083,7 +7083,7 @@
       "raw_frame_data": null
     },
     "434": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7103,7 +7103,7 @@
       "raw_frame_data": null
     },
     "435": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7123,7 +7123,7 @@
       "raw_frame_data": null
     },
     "436": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7143,7 +7143,7 @@
       "raw_frame_data": null
     },
     "437": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7163,7 +7163,7 @@
       "raw_frame_data": null
     },
     "438": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7183,7 +7183,7 @@
       "raw_frame_data": null
     },
     "439": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7203,7 +7203,7 @@
       "raw_frame_data": null
     },
     "440": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7223,7 +7223,7 @@
       "raw_frame_data": null
     },
     "441": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7243,7 +7243,7 @@
       "raw_frame_data": null
     },
     "442": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7263,7 +7263,7 @@
       "raw_frame_data": null
     },
     "443": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7279,7 +7279,7 @@
       "raw_frame_data": null
     },
     "444": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7295,7 +7295,7 @@
       "raw_frame_data": null
     },
     "445": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7311,7 +7311,7 @@
       "raw_frame_data": null
     },
     "446": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7323,7 +7323,7 @@
       "raw_frame_data": null
     },
     "447": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7335,7 +7335,7 @@
       "raw_frame_data": null
     },
     "448": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7347,7 +7347,7 @@
       "raw_frame_data": null
     },
     "449": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7359,7 +7359,7 @@
       "raw_frame_data": null
     },
     "450": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7371,7 +7371,7 @@
       "raw_frame_data": null
     },
     "451": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7383,7 +7383,7 @@
       "raw_frame_data": null
     },
     "452": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7395,7 +7395,7 @@
       "raw_frame_data": null
     },
     "453": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7407,7 +7407,7 @@
       "raw_frame_data": null
     },
     "454": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7419,7 +7419,7 @@
       "raw_frame_data": null
     },
     "455": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7431,7 +7431,7 @@
       "raw_frame_data": null
     },
     "456": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7443,7 +7443,7 @@
       "raw_frame_data": null
     },
     "457": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7455,7 +7455,7 @@
       "raw_frame_data": null
     },
     "458": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7467,7 +7467,7 @@
       "raw_frame_data": null
     },
     "459": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7479,7 +7479,7 @@
       "raw_frame_data": null
     },
     "460": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7491,7 +7491,7 @@
       "raw_frame_data": null
     },
     "461": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7503,7 +7503,7 @@
       "raw_frame_data": null
     },
     "462": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7515,7 +7515,7 @@
       "raw_frame_data": null
     },
     "463": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7527,7 +7527,7 @@
       "raw_frame_data": null
     },
     "464": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7539,7 +7539,7 @@
       "raw_frame_data": null
     },
     "465": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7551,7 +7551,7 @@
       "raw_frame_data": null
     },
     "466": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7563,7 +7563,7 @@
       "raw_frame_data": null
     },
     "467": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7575,7 +7575,7 @@
       "raw_frame_data": null
     },
     "468": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7587,7 +7587,7 @@
       "raw_frame_data": null
     },
     "469": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
@@ -7599,7 +7599,7 @@
       "raw_frame_data": null
     },
     "470": {
-      "accepted": false,
+      "accepted": true,
       "discarded": false,
       "centre_points": [
         [
