@@ -79,17 +79,18 @@ class AugmentedBatchesTrainingData:
     def __init__(self):
         self.batches = []  # Type: List[BatchTrainingData]
 
-    def add_training_batch(self, batch: BatchTrainingData):
+    def add_training_batch(self, batch: BatchTrainingData, flip_and_rotate=True):
         self.batches.append(copy.deepcopy(batch))  # plain data
 
-        batch.flip_horizontally()
-        self.batches.append(copy.deepcopy(batch))  # flipped horizontally
+        if flip_and_rotate:
+            batch.flip_horizontally()
+            self.batches.append(copy.deepcopy(batch))  # flipped horizontally
 
-        batch.flip_vertically()
-        self.batches.append(copy.deepcopy(batch))  # rotated 180 degrees
+            batch.flip_vertically()
+            self.batches.append(copy.deepcopy(batch))  # rotated 180 degrees
 
-        batch.flip_horizontally()
-        self.batches.append(copy.deepcopy(batch))  # rotated vertically
+            batch.flip_horizontally()
+            self.batches.append(copy.deepcopy(batch))  # rotated vertically
 
     def print_stats(self):
         total_number_of_frames = 0
