@@ -5,6 +5,7 @@ from typing import List
 import numpy as np
 
 import config
+from config import TEMPERATURE_NORMALIZATION__MIN, TEMPERATURE_NORMALIZATION__MAX
 from data_labeling.annotation_collector import AnnotationCollector
 from data_labeling.ir_data_scv_reader import IrDataCsvReader
 from data_labeling.labeling_config import ROOT_DATA_DIR_PATH, OUTPUT_LABELS_DIR
@@ -40,7 +41,7 @@ class BatchTrainingData:
     """
     Stores training data for one batch
     """
-    def __init__(self, min_temperature=20, max_temperature=35):
+    def __init__(self, min_temperature=TEMPERATURE_NORMALIZATION__MIN, max_temperature=TEMPERATURE_NORMALIZATION__MAX):
         self.centre_points = []  # type: List[List[tuple]]
         self.raw_ir_data = []  # type: List[np.ndarray]
         self.normalized_ir_data = []  # type: List[np.ndarray]  # same data as raw_ir_data, but normalized

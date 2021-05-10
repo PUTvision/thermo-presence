@@ -1,7 +1,7 @@
 import copy
 import logging
 import time
-from typing import List, Union
+from typing import Union
 from dataclasses import dataclass
 import queue
 import io
@@ -12,7 +12,7 @@ import threading
 from matplotlib import pyplot as plt
 
 # from devices.ir_camera import IrCamera
-from frame_processor import FrameProcessor
+from data_collection.src.trained_model.frame_processor import FrameProcessor
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)

@@ -4,9 +4,9 @@ from io import BytesIO
 
 import cv2
 import png
-import numpy as np
 from flask import Flask, Response, send_from_directory, redirect, request
 
+from data_collection.src.trained_model.frame_processor import FrameProcessor
 from devices.rgb_camera import RgbCamera
 from ir_frame_collector import IrFrameCollector
 
@@ -29,6 +29,7 @@ def get_status():
 
 _ir_frame_collector = None  # type: IrFrameCollector
 _rgb_camera = None  # type: RgbCamera
+_frame_processor = FrameProcessor()
 
 
 def _get_ir_frame(ir_frame_collector: IrFrameCollector, min_temp, max_temp):
@@ -46,24 +47,28 @@ def _get_ir_frame(ir_frame_collector: IrFrameCollector, min_temp, max_temp):
         frame_png.write(output)
         frame_bin = output.getvalue()
 
-        time.sleep(0.1)
+        time.sleep(0.4)
         yield (b'--frame\r\n'
                b'Content-Type: image/png\r\n\r\n' + frame_bin + b'\r\n')
 
 
-def _get_processed_ir_frame(ir_frame_collector):
+def _get_processed_ir_frame(ir_frame_collector, frame_processor, min_val, max_val):
     while True:
         raw_frame = ir_frame_collector.frame_processor.get_latest_frame()
+        processed_frame = frame_processor.process_frame(raw_frame)
 
-        # video_frame_3d = ir_frame_collector.raw_frame_to_frame_for_video(
-        #     raw_frame, as_bgr=False, min_temp=min_temp, max_temp=max_temp)
-        # video_frame = video_frame_3d.reshape(video_frame_3d.shape[0], -1)
-        # frame_png = png.from_array(video_frame, 'RGB')
-        # output = BytesIO()
-        # frame_png.write(output)
-        # frame_bin = output.getvalue()
+        video_frame_3d = ir_frame_collector.raw_frame_to_frame_for_video(
+            processed_frame, as_bgr=False, min_temp=min_val, max_temp=max_val)
+        video_frame_3d = cv2.rotate(video_frame_3d, cv2.ROTATE_90_CLOCKWISE)
+        video_frame_3d = cv2.flip(video_frame_3d, 0)
 
-        time.sleep(0.1)
+        video_frame = video_frame_3d.reshape(video_frame_3d.shape[0], -1)
+        frame_png = png.from_array(video_frame, 'RGB')
+        output = BytesIO()
+        frame_png.write(output)
+        frame_bin = output.getvalue()
+
+        time.sleep(0.4)
         yield (b'--frame\r\n'
                b'Content-Type: image/png\r\n\r\n' + frame_bin + b'\r\n')
 
@@ -97,9 +102,13 @@ def get_rgb_video():
 
 @app.route('/processed_ir_video')
 def get_processed_ir_video():
+    min_val = request.args.get('min', default=None, type=float)
+    max_val = request.args.get('max', default=None, type=float)
+
     global _ir_frame_collector
+    global _frame_processor
     return Response(
-        _get_processed_ir_frame(_ir_frame_collector),
+        _get_processed_ir_frame(_ir_frame_collector, _frame_processor, min_val=min_val, max_val=max_val),
         mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
@@ -110,6 +119,12 @@ def run_server(ir_frame_collector, rgb_camera):
     _ir_frame_collector = ir_frame_collector
     _rgb_camera = rgb_camera
     app.run(host='0.0.0.0', port=8888, debug=False)
+
+
+@app.route('/people')
+def get_number_of_people():
+    global _frame_processor
+    return str(_frame_processor.get_people_count_on_latest_frame())
 
 
 @app.route('/index.html')

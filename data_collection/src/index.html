@@ -11,16 +11,57 @@ body, html {width: 100%; height: 100%; margin: 0; padding: 0}
 .second-row iframe {width: 100%; height: 100%; border: none; margin: 0; padding: 0; display: block;}
 </style>
 
+
+<script type = "text/javascript">
+
+    function updatePeopleCount()
+    {
+        data = null;
+
+        var xhtmlobj = new XMLHttpRequest();
+        xhtmlobj.onreadystatechange = function()
+        {
+            if ((this.readyState === 4))
+            {
+                var divForPeople = document.getElementById("people_div");
+
+                if ((this.status === 200))
+                {
+                    divForPeople.innerHTML = this.responseText
+                }
+                else
+                {
+                    divForPeople.innerHTML = xhtmlobj.responseText
+                }
+            }
+        };
+        xhtmlobj.onerror = function() { alert("Connection error!"); };
+        xhtmlobj.open("GET", "people", true);
+        xhtmlobj.send();
+    }
+
+    window.onload = function()
+    {
+        setInterval(function(){
+            updatePeopleCount();
+        }, 400);
+    }
+</script>
+
 </head>
 <body>
 
 
 <div class="row-container">
+    <div id="people_div">
+        ?
+    </div>
+
     <div class="first-row">
         <iframe src="ir_video" title="IR"></iframe>
     </div>
     <div class="second-row">
-        <iframe src="rgb_video" title="RGB"></iframe>
+        <iframe src="processed_ir_video" title="IR_processed"></iframe>
     </div>
 </div>
 
