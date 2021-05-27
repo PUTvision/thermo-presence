@@ -4,7 +4,7 @@ import os
 import threading
 import time
 
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 
 import server
 from data_collector import DataCollector
