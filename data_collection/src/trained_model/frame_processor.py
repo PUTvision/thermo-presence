@@ -74,7 +74,7 @@ class FrameProcessor:
         self.model = UNET(1, 1).double()
 
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        model_path = os.path.join(current_dir, 'unet_gauss_model')
+        model_path = os.path.join(current_dir, 'unet_gauss_model_cpu1')
         self.model.load_state_dict(torch.load(model_path))
         self.model.eval()
         self.model.train(False)
