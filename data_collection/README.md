@@ -5,10 +5,10 @@
 - expand the primary partition on the SD-Card (e.g. with gparted)
 - (optional) enable ssh by running `touch ssh` on `boot` partition of the SD-Card
 - connect IR camera with cables to GPIOs (seehttps://www.element14.com/community/servlet/JiveServlet/showImage/102-92640-8-726998/GPIO-Pi4.png )
-- 3v3 (1st in bottom left row)
-- I2C SDA (2nd in bottom left row)
-- I2C SCL (3rd in bottom left row)
-- GND (5th in bottom left row)
+  - 3v3 (1st in bottom left row)
+  - I2C SDA (2nd in bottom left row)
+  - I2C SCL (3rd in bottom left row)
+  - GND (5th in bottom left row)
 
 - start Raspberry and either connect via ssh or use display and keyboard connected to PI
 - user `pi`, change password to `pivision`
@@ -47,7 +47,7 @@ disable_camera_led=1  # optional, if you don't want the led to glow
 
 - try if the IR camera works - `python ./data_collection/misc/manual_ir_test.py` (one should see preview from IR camera plotted in matplotlib)
 - try normal camera - `raspistill -t 0` 
-- (optional) mount pi storage ib your PC for convenience
+- (optional) mount pi storage in your PC for convenience
 ```
 mkdir tmp; cd tmp; mkdir pi_mnt; sshfs pi@10.11.12.76:/home/pi/Projects pi_mnt
 ```

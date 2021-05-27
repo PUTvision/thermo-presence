@@ -12,7 +12,7 @@ import threading
 from matplotlib import pyplot as plt
 
 # from devices.ir_camera import IrCamera
-from data_collection.src.trained_model.frame_processor import FrameProcessor
+from trained_model.frame_processor import FrameProcessor
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)

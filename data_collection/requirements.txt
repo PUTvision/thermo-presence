@@ -2,7 +2,8 @@
 scipy
 numpy
 adafruit-circuitpython-mlx90640
-ipython
 opencv-python
 flask
 pypng
+torch
+picamera
