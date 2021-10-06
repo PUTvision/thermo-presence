@@ -121,9 +121,9 @@ class IrFrameCollector:
         frame_resized_not_clipped = cv2.resize(src=frame_2d, dsize=self._zoomed_frame_size_cv, interpolation=cv2.INTER_CUBIC)
 
         if min_temp is None:
-            min_temp = min(raw_frame)
+            min_temp = np.min(raw_frame)
         if max_temp is None:
-            max_temp = max(raw_frame)
+            max_temp = np.max(raw_frame)
         # logger.debug(f"raw_frame_to_frame_for_video: min={min_temp}, max={max_temp}")
 
         frame_resized = np.clip(frame_resized_not_clipped, min_temp, max_temp)

@@ -6,7 +6,7 @@ import cv2
 import png
 from flask import Flask, Response, send_from_directory, redirect, request
 
-from data_collection.src.trained_model.frame_processor import FrameProcessor
+from trained_model.frame_processor import FrameProcessor
 from devices.rgb_camera import RgbCamera
 from ir_frame_collector import IrFrameCollector
 
@@ -54,7 +54,7 @@ def _get_ir_frame(ir_frame_collector: IrFrameCollector, min_temp, max_temp):
 
 def _get_processed_ir_frame(ir_frame_collector, frame_processor, min_val, max_val):
     while True:
-        raw_frame = ir_frame_collector.frame_processor.get_latest_frame()
+        raw_frame = ir_frame_collector.get_latest_frame().data
         processed_frame = frame_processor.process_frame(raw_frame)
 
         video_frame_3d = ir_frame_collector.raw_frame_to_frame_for_video(

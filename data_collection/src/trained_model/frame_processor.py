@@ -5,76 +5,113 @@ import torch.nn.functional as F
 from torch import nn
 import torch
 
-from config import IR_CAMERA_RESOLUTION, TEMPERATURE_NORMALIZATION__MIN, TEMPERATURE_NORMALIZATION__MAX
+
+# from config import IR_CAMERA_RESOLUTION, TEMPERATURE_NORMALIZATION__MIN, TEMPERATURE_NORMALIZATION__MAX
+IR_CAMERA_RESOLUTION_X = 32
+IR_CAMERA_RESOLUTION_Y = 24
+
+IR_CAMERA_RESOLUTION = (IR_CAMERA_RESOLUTION_Y, IR_CAMERA_RESOLUTION_X)
+
+# for frames normalization
+TEMPERATURE_NORMALIZATION__MIN = 20
+TEMPERATURE_NORMALIZATION__MAX = 35
 
 
-class UNET(nn.Module):
+from typing import Tuple
+import torch
+from torch import nn
+class AutoEncoder(torch.nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
-
-        self.conv1 = self.contract_block(in_channels, 32, 5, 2)
-        self.conv2 = self.contract_block(32, 64, 3, 1)
-        # self.conv3 = self.contract_block(64, 128, 3, 1)
-
-        # self.upconv3 = self.expand_block(128, 64, 3, 1)
-        self.upconv2 = self.expand_block(64, 32, 3, 1)
-        self.upconv1 = self.expand_block(32 * 2, out_channels, 3, 1)
-
-    def __call__(self, x):
+        self.encoder = Encoder(in_channels)
+        self.conv = DoubleConv(32, 64, 3, 1)
+        self.upconv1 = ExpandBlock(64, 32, 3, 1)
+        self.upconv2 = ExpandBlock(32, 16, 3, 1)
+        self.out_conv = nn.Conv2d(16, out_channels, kernel_size=1)
+    def forward(self, x):
         # downsampling part
-        conv1 = self.conv1(x)
-        conv2 = self.conv2(conv1)
-        # conv3 = self.conv3(conv2)
+        x, conv2, conv1 = self.encoder(x)
+        x = self.conv(x)
+        x = self.upconv1(x, conv2)
+        x = self.upconv2(x, conv1)
+        x = self.out_conv(x)
 
-        # upconv3 = self.upconv3(conv3)
+        x = x[:, 0, :, :]  # get rid of one dimension
+        return x
 
-        # upconv2 = self.upconv2(torch.cat([upconv3, conv2], 1))
-        upconv2 = self.upconv2(conv2)
 
-        upconv1 = self.upconv1(torch.cat([upconv2, conv1], 1))
+class ExpandBlock(nn.Sequential):
+    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, padding: int):
+        super().__init__()
+        self.conv_transpose = nn.ConvTranspose2d(
+            in_channels, in_channels // 2, kernel_size=3, stride=2, padding=1, output_padding=1
+        )
+        self.conv1 = nn.Conv2d(in_channels, out_channels, kernel_size, padding=padding)
+        self.bn1 = nn.BatchNorm2d(out_channels)
+        self.conv2 = nn.Conv2d(out_channels, out_channels, kernel_size, padding=padding)
+        self.bn2 = nn.BatchNorm2d(out_channels)
+        self.relu = nn.ReLU(inplace=True)
+    def forward(self, x: torch.Tensor, encoder_features: torch.Tensor) -> torch.Tensor:
+        x = self.conv_transpose(x)
+        x = torch.cat((x, encoder_features), dim=1)
+        x = self.conv1(x)
+        x = self.bn1(x)
+        x = self.relu(x)
+        x = self.conv2(x)
+        x = self.bn2(x)
+        x = self.relu(x)
+        return x
 
-        upconv1_single = upconv1[:, 0, :, :]
 
-        #         print(f'upconv1.shape = {upconv1.shape}')
-        #         print(f'upconv1_single.shape = {upconv1_single.shape}')
+class Encoder(nn.Module):
+    def __init__(self, in_channels: int):
+        super().__init__()
+        self.conv1 = ContractBlock(in_channels, 16, 3, 1)
+        self.conv2 = ContractBlock(16, 32, 3, 1)
+    def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
+        x, conv1 = self.conv1(x)
+        x, conv2 = self.conv2(x)
+        return x, conv2, conv1
+    def forward_simple(self, x: torch.Tensor) -> torch.Tensor:
+        x = self.input_conv(x)
+        x = self.conv1(x)
+        x = self.conv2(x)
+        return x
 
-        # return upconv1
-        return upconv1_single
 
-    def contract_block(self, in_channels, out_channels, kernel_size, padding):
-        contract = nn.Sequential(
-            torch.nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size, stride=1, padding=padding),
-            torch.nn.BatchNorm2d(out_channels),
-            torch.nn.ReLU(),
-            torch.nn.Conv2d(out_channels, out_channels, kernel_size=kernel_size, stride=1, padding=padding),
-            torch.nn.BatchNorm2d(out_channels),
-            torch.nn.ReLU(),
-            torch.nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
+class ContractBlock(nn.Module):
+    def __init__(self, in_channels, out_channels, kernel_size, padding):
+        super().__init__()
+        self.conv = DoubleConv(in_channels, out_channels, kernel_size, padding=padding)
+        self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
+    def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
+        features = self.conv(x)
+        x = self.pool(features)
+        return x, features
+
+
+class DoubleConv(nn.Sequential):
+    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, padding: int = 0):
+        super().__init__(
+            nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size, stride=1, padding=padding),
+            nn.BatchNorm2d(out_channels),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(out_channels, out_channels, kernel_size=kernel_size, stride=1, padding=padding),
+            nn.BatchNorm2d(out_channels),
+            nn.ReLU(inplace=True),
         )
 
-        return contract
-
-    def expand_block(self, in_channels, out_channels, kernel_size, padding):
-        expand = nn.Sequential(torch.nn.Conv2d(in_channels, out_channels, kernel_size, stride=1, padding=padding),
-                               torch.nn.BatchNorm2d(out_channels),
-                               torch.nn.ReLU(),
-                               torch.nn.Conv2d(out_channels, out_channels, kernel_size, stride=1, padding=padding),
-                               torch.nn.BatchNorm2d(out_channels),
-                               torch.nn.ReLU(),
-                               torch.nn.ConvTranspose2d(out_channels, out_channels, kernel_size=3, stride=2, padding=1,
-                                                        output_padding=1)
-                               )
-        return expand
 
 
 class FrameProcessor:
     def __init__(self):
         self.latest_output_frame = None
         self.sum_of_values_for_one_person = 52
-        self.model = UNET(1, 1).double()
+        #self.model = UNET(1, 1).double()
+        self.model = AutoEncoder(1, 1).double()
 
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        model_path = os.path.join(current_dir, 'unet_gauss_model_cpu1')
+        model_path = os.path.join(current_dir, 'unet_v2small_cpu2')
         self.model.load_state_dict(torch.load(model_path))
         self.model.eval()
         self.model.train(False)
