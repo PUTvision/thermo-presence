@@ -2,6 +2,8 @@
 Detect and count people on infrared images 
 from a low resolution thermovision camera (24x32 pixels).
 
+See also article based on this project: [Low-Cost Thermal Camera-Based Counting Occupancy Meter Facilitating Energy Saving in Smart Buildings](https://www.mdpi.com/1996-1073/14/15/4542/htm)
+
 # Components
 
 ## Data collection

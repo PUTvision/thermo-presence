@@ -6,6 +6,5 @@ numpy
 ipython
 opencv-python
 PyMsgBox
-
- torch
- torchvision
+torch
+torchvision

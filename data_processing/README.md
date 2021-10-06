@@ -19,3 +19,4 @@ export PYTHONPATH=$PYTHONPATH:`pwd` && python3 data_labeling/data_labeling_main.
 ``` 
 jupyter notebook
 ```
+and navigate to the main notebook (notebooks/model_training_and_test.ipynb) to train and validate the model.
