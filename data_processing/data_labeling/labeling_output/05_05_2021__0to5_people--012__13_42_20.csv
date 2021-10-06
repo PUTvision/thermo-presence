@@ -1,0 +1,9266 @@
+{
+  "output_file_path": "/home/przemek/Projects/thermo-presence/thermo-presence/data_processing/data_labeling/labeling_output/05_05_2021__0to5_people--012__13_42_20.csv",
+  "data_batch_dir_path": "/media/data/temporary/thermo-presence/05_05_2021__0to5_people/012__13_42_20",
+  "annotations": {
+    "0": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.9375,
+          13.5625
+        ],
+        [
+          13.4375,
+          3.25
+        ],
+        [
+          27.625,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "1": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0625,
+          13.9375
+        ],
+        [
+          13.6875,
+          3.5
+        ],
+        [
+          27.4375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "2": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.625
+        ],
+        [
+          13.4375,
+          2.9375
+        ],
+        [
+          27.4375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "3": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.625
+        ],
+        [
+          13.4375,
+          2.9375
+        ],
+        [
+          27.4375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "4": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0625,
+          13.5
+        ],
+        [
+          13.4375,
+          2.9375
+        ],
+        [
+          27.4375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "5": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0625,
+          13.5
+        ],
+        [
+          13.4375,
+          2.9375
+        ],
+        [
+          27.5,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "6": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.5
+        ],
+        [
+          13.4375,
+          2.9375
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "7": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.75,
+          13.125
+        ],
+        [
+          13.4375,
+          2.9375
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "8": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.75,
+          13.125
+        ],
+        [
+          13.6875,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "9": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.75,
+          13.125
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "10": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.75,
+          13.125
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "11": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.625
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "12": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.625
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "13": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.625
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "14": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.625
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "15": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.1875
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "16": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "17": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "18": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "19": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.75,
+          3.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "20": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.375,
+          4.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "21": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.6875,
+          4.0
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "22": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.9375,
+          3.8125
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "23": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          14.0,
+          3.75
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "24": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "25": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.75,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "26": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "27": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "28": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.5625
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "29": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "30": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          28.0,
+          14.0
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "31": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          28.0,
+          13.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "32": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.9375,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "33": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.9375,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "34": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.375
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.8125,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "35": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.8125,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "36": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.25,
+          4.1875
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "37": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.25,
+          4.25
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "38": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.3125,
+          4.25
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "39": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.3125,
+          4.25
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "40": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "41": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "42": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "43": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "44": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "45": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.6875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "46": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.6875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "47": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.6875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "48": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          4.1875
+        ],
+        [
+          27.6875,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "49": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.4375,
+          4.25
+        ],
+        [
+          27.75,
+          14.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "50": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.625,
+          4.1875
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "51": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.6875,
+          4.0625
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "52": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.6875,
+          4.0625
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "53": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.6875,
+          4.0625
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "54": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "55": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "56": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "57": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "58": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "59": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "60": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "61": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.8125,
+          4.0
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "62": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          14.0,
+          3.9375
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "63": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          14.0,
+          3.9375
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "64": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "65": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "66": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "67": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "68": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "69": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "70": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "71": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "72": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "73": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.5625,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "74": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.6875,
+          14.0
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "75": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "76": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "77": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "78": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.625,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "79": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.5625,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "80": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.5625,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "81": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.5625,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "82": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          13.375,
+          3.8125
+        ],
+        [
+          27.5625,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "83": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          14.625,
+          3.5
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "84": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          14.8125,
+          4.0625
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "85": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          15.3125,
+          3.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "86": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          16.375,
+          4.125
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "87": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          18.1875,
+          4.5625
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "88": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          22.0625,
+          5.3125
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "89": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          24.0,
+          6.0
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "90": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          24.5,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "91": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          25.0625,
+          6.75
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "92": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          24.875,
+          6.625
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "93": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.0,
+          13.0625
+        ],
+        [
+          24.875,
+          6.625
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "94": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.125,
+          12.3125
+        ],
+        [
+          25.0,
+          6.5625
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "95": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.125,
+          12.375
+        ],
+        [
+          25.0625,
+          6.4375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "96": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.25,
+          12.625
+        ],
+        [
+          25.0625,
+          6.4375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "97": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.4375,
+          12.8125
+        ],
+        [
+          25.0625,
+          6.4375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "98": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.0
+        ],
+        [
+          25.25,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "99": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.0
+        ],
+        [
+          25.25,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "100": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.0
+        ],
+        [
+          25.3125,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "101": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.0625
+        ],
+        [
+          25.3125,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "102": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.125
+        ],
+        [
+          25.3125,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "103": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.4375,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "104": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "105": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.25,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "106": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "107": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "108": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "109": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "110": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "111": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.125
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "112": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "113": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "114": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "115": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "116": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "117": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "118": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "119": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "120": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "121": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "122": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "123": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "124": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "125": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "126": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "127": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "128": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "129": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "130": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "131": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "132": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "133": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "134": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "135": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.375
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "136": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.1875
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "137": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.1875
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "138": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.1875
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "139": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.1875
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "140": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.1875
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "141": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.1875
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "142": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.0625
+        ],
+        [
+          27.375,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "143": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.0625
+        ],
+        [
+          27.5625,
+          14.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "144": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.0625
+        ],
+        [
+          27.5625,
+          14.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "145": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.0625
+        ],
+        [
+          27.5625,
+          14.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "146": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.0625
+        ],
+        [
+          27.5625,
+          14.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "147": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.0625
+        ],
+        [
+          27.5625,
+          14.625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "148": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5625,
+          6.0625
+        ],
+        [
+          27.5,
+          14.5625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "149": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.4375,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "150": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "151": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "152": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "153": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "154": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "155": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "156": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "157": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "158": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.4375,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "159": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "160": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.0625
+        ],
+        [
+          27.3125,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "161": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.0625
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "162": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.5,
+          6.0625
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "163": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.0625
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "164": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.875,
+          6.0625
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "165": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.875,
+          6.125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "166": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          12.9375
+        ],
+        [
+          25.875,
+          6.125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "167": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.4375,
+          13.3125
+        ],
+        [
+          25.8125,
+          6.125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "168": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.4375,
+          13.3125
+        ],
+        [
+          25.5625,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "169": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.4375
+        ],
+        [
+          24.9375,
+          5.9375
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "170": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.4375
+        ],
+        [
+          24.8125,
+          5.9375
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "171": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.4375
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "172": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.4375
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "173": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.4375
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "174": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.4375
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "175": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5,
+          13.4375
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "176": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.4375
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "177": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.5625,
+          13.375
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "178": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          6.1875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "179": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.75,
+          5.875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "180": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.75,
+          5.875
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "181": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "182": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "183": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "184": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "185": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "186": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "187": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "188": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "189": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "190": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "191": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "192": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "193": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "194": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "195": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "196": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "197": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "198": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "199": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "200": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.3125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "201": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.25
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "202": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.625,
+          13.25
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.375,
+          14.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "203": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "204": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "205": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.6875,
+          5.8125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "206": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.5625,
+          6.3125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "207": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.5,
+          6.3125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "208": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.5,
+          6.3125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "209": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.5,
+          6.3125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "210": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.5,
+          6.3125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "211": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.5625,
+          5.8125
+        ],
+        [
+          27.625,
+          13.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "212": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.625,
+          14.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "213": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.6875,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "214": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "215": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "216": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "217": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "218": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "219": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "220": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "221": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "222": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "223": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "224": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "225": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "226": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "227": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "228": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "229": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "230": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "231": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "232": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "233": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "234": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "235": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "236": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "237": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "238": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "239": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "240": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.6875,
+          13.125
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "241": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "242": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.375,
+          14.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "243": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.625,
+          14.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "244": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.8125,
+          14.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "245": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          28.5625,
+          14.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "246": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          31.25,
+          15.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "247": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          31.5,
+          16.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "248": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          31.625,
+          17.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "249": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "250": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "251": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "252": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "253": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "254": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "255": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "256": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "257": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "258": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "259": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "260": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "261": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "262": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "263": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "264": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "265": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "266": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "267": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "268": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "269": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "270": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "271": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "272": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "273": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "274": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "275": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "276": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "277": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "278": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "279": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "280": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "281": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "282": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "283": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "284": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "285": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "286": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "287": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "288": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "289": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          31.3125,
+          9.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "290": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          31.25,
+          10.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "291": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          30.9375,
+          9.625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "292": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          30.3125,
+          9.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "293": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          29.8125,
+          9.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "294": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          29.8125,
+          10.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "295": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          29.8125,
+          11.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "296": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          29.875,
+          11.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "297": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          28.5625,
+          10.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "298": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          28.4375,
+          10.625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "299": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          27.625,
+          10.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "300": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          24.625,
+          5.8125
+        ],
+        [
+          25.6875,
+          9.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "301": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.0,
+          5.8125
+        ],
+        [
+          24.4375,
+          8.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "302": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.8125,
+          5.5625
+        ],
+        [
+          24.3125,
+          6.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "303": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.9375,
+          5.6875
+        ],
+        [
+          22.8125,
+          5.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "304": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.9375,
+          6.3125
+        ],
+        [
+          22.0,
+          4.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "305": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.875,
+          6.6875
+        ],
+        [
+          18.6875,
+          3.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "306": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.75,
+          6.375
+        ],
+        [
+          16.75,
+          4.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "307": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.75,
+          6.375
+        ],
+        [
+          14.875,
+          4.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "308": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.375
+        ],
+        [
+          12.9375,
+          4.5625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "309": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.375
+        ],
+        [
+          10.5,
+          4.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "310": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.375
+        ],
+        [
+          9.0,
+          5.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "311": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.4375
+        ],
+        [
+          7.75,
+          5.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "312": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.4375
+        ],
+        [
+          6.6875,
+          4.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "313": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.4375
+        ],
+        [
+          7.375,
+          4.5625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "314": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.4375
+        ],
+        [
+          8.375,
+          4.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "315": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.4375
+        ],
+        [
+          8.3125,
+          5.625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "316": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.4375
+        ],
+        [
+          7.25,
+          5.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "317": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.4375
+        ],
+        [
+          7.875,
+          5.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "318": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          8.9375,
+          4.5625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "319": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          9.5625,
+          4.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "320": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          10.3125,
+          3.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "321": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          11.0,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "322": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          12.3125,
+          4.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "323": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          13.875,
+          4.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "324": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          15.0625,
+          4.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "325": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          15.625,
+          3.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "326": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          16.0,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "327": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          16.0625,
+          3.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "328": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.5625,
+          6.5
+        ],
+        [
+          16.125,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "329": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          18.8125,
+          3.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "330": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          20.5,
+          3.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "331": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          21.8125,
+          4.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "332": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          23.375,
+          7.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "333": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          24.1875,
+          8.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "334": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          26.0625,
+          8.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "335": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          26.4375,
+          10.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "336": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          27.5,
+          11.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "337": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          29.5625,
+          10.5625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "338": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          31.125,
+          10.625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "339": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          31.125,
+          11.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "340": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          31.25,
+          11.5625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "341": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          31.0,
+          11.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "342": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          31.0625,
+          11.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "343": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          30.9375,
+          12.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "344": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.625,
+          6.5
+        ],
+        [
+          31.0625,
+          11.625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "345": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.0625,
+          11.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "346": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.125,
+          11.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "347": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.1875,
+          11.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "348": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.125,
+          11.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "349": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.25,
+          11.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "350": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.0625,
+          11.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "351": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.0625,
+          11.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "352": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.0625,
+          11.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "353": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.125,
+          11.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "354": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.125,
+          11.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "355": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.1875,
+          11.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "356": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          31.0,
+          10.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "357": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.8125,
+          13.0625
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          30.4375,
+          11.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "358": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.25,
+          13.0
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          30.5625,
+          11.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "359": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          30.4375,
+          10.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "360": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          28.875,
+          11.125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "361": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          28.0625,
+          11.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "362": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          29.125,
+          11.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "363": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          28.625,
+          11.8125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "364": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          28.625,
+          11.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "365": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          27.75,
+          11.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "366": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          25.625,
+          8.625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "367": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          25.3125,
+          7.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "368": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          23.8125,
+          5.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "369": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          22.375,
+          3.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "370": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          20.75,
+          2.875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "371": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          25.6875,
+          6.5
+        ],
+        [
+          18.375,
+          2.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "372": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          26.0,
+          6.5
+        ],
+        [
+          16.9375,
+          2.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "373": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          15.9375,
+          2.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "374": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.3125,
+          12.9375
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          17.125,
+          2.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "375": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.25,
+          12.8125
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.9375,
+          2.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "376": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.25,
+          12.8125
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.6875,
+          2.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "377": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.25,
+          12.8125
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.6875,
+          2.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "378": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.125,
+          12.9375
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.6875,
+          2.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "379": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.125,
+          12.9375
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.6875,
+          2.3125
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "380": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.125,
+          12.9375
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.9375,
+          2.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "381": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.125,
+          12.9375
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.9375,
+          2.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "382": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          11.125,
+          12.9375
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.9375,
+          2.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "383": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.9375,
+          2.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "384": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.9375,
+          2.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "385": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.125,
+          2.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "386": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.0625,
+          2.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "387": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          16.0,
+          3.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "388": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          15.0625,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "389": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          13.5625,
+          3.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "390": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          12.0,
+          4.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "391": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          11.3125,
+          5.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "392": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          10.5625,
+          5.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "393": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.5
+        ],
+        [
+          8.8125,
+          4.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "394": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.1875,
+          6.5
+        ],
+        [
+          9.9375,
+          4.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "395": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          10.5,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "396": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          10.0,
+          5.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "397": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          10.375,
+          5.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "398": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          12.625,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "399": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          14.1875,
+          3.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "400": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          15.0625,
+          3.6875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "401": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          14.9375,
+          2.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "402": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          15.4375,
+          3.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "403": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          14.5,
+          3.75
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "404": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "405": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.5
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "406": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.625,
+          4.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "407": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.625,
+          4.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "408": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.5625,
+          4.4375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "409": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "410": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "411": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "412": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "413": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "414": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "415": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "416": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "417": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.6875,
+          4.375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "418": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          14.0,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "419": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          14.0,
+          4.0
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "420": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.9375,
+          3.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "421": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "422": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "423": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "424": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "425": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "426": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "427": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "428": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "429": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "430": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "431": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "432": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "433": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "434": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "435": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "436": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "437": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "438": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "439": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "440": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "441": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "442": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "443": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "444": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "445": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "446": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.875,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "447": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.5,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "448": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.375,
+          4.25
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "449": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "450": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.625
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "451": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.1875,
+          6.625
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "452": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.125,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "453": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "454": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "455": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "456": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "457": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "458": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "459": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "460": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "461": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "462": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.375,
+          4.1875
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "463": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.4375,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "464": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.4375,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "465": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.4375,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "466": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.4375,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "467": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.5,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "468": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.5,
+          4.0625
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "469": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.5625,
+          4.0
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    },
+    "470": {
+      "accepted": true,
+      "discarded": false,
+      "centre_points": [
+        [
+          10.875,
+          13.0625
+        ],
+        [
+          26.0625,
+          6.75
+        ],
+        [
+          13.5625,
+          3.9375
+        ]
+      ],
+      "rectangles": [],
+      "raw_frame_data": null
+    }
+  }
+}

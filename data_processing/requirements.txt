@@ -1,0 +1,10 @@
+ipython
+jupyter
+matplotlib
+scipy
+numpy
+ipython
+opencv-python
+PyMsgBox
+torch
+torchvision

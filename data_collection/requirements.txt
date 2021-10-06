@@ -1,0 +1,9 @@
+# matplotlib
+scipy
+numpy
+adafruit-circuitpython-mlx90640
+opencv-python
+flask
+pypng
+torch
+picamera
