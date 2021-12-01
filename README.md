@@ -23,7 +23,7 @@
 * [Citation](#citation)
 
 ## Dataset
-The data and code enabling the replication of the presented experiments can be found [here](https://chmura.put.poznan.pl/s/0JtlXwpqmSFWMNA?path=%2FDatasets%2Fthermo-presence%2Fthermo_presence_article_files).
+Our dataset is publicly available. Additionally, we provide a notebook and a trained model that allow you to replicate the experiments. You can find everything [here](https://chmura.put.poznan.pl/s/MftZtediKJOrL3f).
 
 ## Data collection
 Software to record the data from camera.  
