@@ -1,0 +1,11 @@
+click
+numpy
+matplotlib
+neptune-client
+neptune-tensorflow-keras
+opencv-python
+PyYAML
+seaborn
+sklearn
+tensorflow
+tensorflow-addons
