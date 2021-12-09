@@ -6,11 +6,12 @@ import click
 import numpy as np
 import seaborn as sns
 import tensorflow as tf
+from tensorflow.keras.metrics import MeanAbsoluteError, MeanSquaredError
 import matplotlib.pyplot as plt
 import neptune.new as neptune
 from neptune.new.integrations.tensorflow_keras import NeptuneCallback
 
-from model import UNet, check_model_prediction, validate_model_with_real_number_of_persons
+from model import UNet, check_model_prediction, validate_model_with_real_number_of_persons, CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
 from utils import load_data_for_labeled_batches, AugmentedBatchesTrainingData, ThermalDataset
 
 
@@ -88,7 +89,13 @@ def train(config_path: str, log_neptune: bool):
     model.compile(
         optimizer=config['model']['optimizer'],
         loss=config['model']['loss'],
-        metrics=config['model']['metrics']
+        metrics=[
+            MeanAbsoluteError(name='mae'), 
+            MeanSquaredError(name='mse'), 
+            CountAccuracy(config, name='count_acc'),
+            CountMAE(config, name='count_mae'),
+            CountMeanRelativeAbsoluteError(config, name='count_mrae')
+        ]
     )
 
     if log_neptune:
