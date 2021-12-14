@@ -5,6 +5,7 @@ import tensorflow as tf
 from sklearn.metrics import f1_score
 
 from utils import ThermalDataset
+from model import CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
 
 
 def check_model_prediction(model: tf.keras.Model, config: dict) -> Tuple[float, np.ndarray]:
@@ -24,12 +25,55 @@ def check_model_prediction(model: tf.keras.Model, config: dict) -> Tuple[float, 
     return count, output_frame
 
 
-def validate_model_with_real_number_of_persons(
-        model: tf.keras.Model, 
-        loader: ThermalDataset, 
-        config: dict, 
-        skip_confusion_matrix: bool = False,
-    ) -> Tuple[float, float, np.ndarray]:
+def tf_keras_inference(model: tf.keras.Model, inputs: np.ndarray) -> np.ndarray:
+    return model.predict(inputs)
+
+
+def tflite_inference(interpreter: tf.lite.Interpreter, inputs: np.ndarray) -> np.ndarray:
+    # TFLite allocate tensors.
+    interpreter.allocate_tensors()
+
+    # Get input and output tensors.
+    input_details = interpreter.get_input_details()
+    output_details = interpreter.get_output_details()
+
+    in_scale = input_details[0]['quantization'][0]
+    in_zero_point = input_details[0]['quantization'][1]
+    in_dtype = input_details[0]['dtype']
+
+    out_scale = output_details[0]['quantization'][0]
+    out_zero_point = output_details[0]['quantization'][1]
+
+    outputs = []
+
+    for input_data in inputs:
+        if (in_scale, in_zero_point) != (0.0, 0):
+            input_data = input_data / in_scale + in_zero_point
+
+        interpreter.set_tensor(
+            input_details[0]['index'], [input_data.astype(in_dtype)])
+
+        interpreter.invoke()
+
+        # The function `get_tensor()` returns a copy of the tensor data.
+        # Use `tensor()` in order to get a pointer to the tensor.
+        output_data = interpreter.get_tensor(output_details[0]['index'])
+
+        if (out_scale, out_zero_point) != (0.0, 0):
+            output_data = (output_data - out_zero_point) * out_scale
+
+        outputs.append(output_data)
+
+    return np.vstack(outputs)
+
+
+def evaluate(
+    model_path: str,
+    model_type: str,
+    loader: ThermalDataset,
+    config: dict,
+    skip_confusion_matrix: bool = False,
+) -> Tuple[float, float, np.ndarray]:
     """ Validate the model on data from the loader, calculate and print the results and metrics """
     correct_count = 0
     tested_frames = 0
@@ -41,15 +85,27 @@ def validate_model_with_real_number_of_persons(
 
     mae_sum = 0
     mse_sum = 0
-
     mae_rounded_sum = 0
     mse_rounded_sum = 0
 
     vec_real_number_of_persons = []
     vec_predicted_number_of_persons = []
 
-    for frame, labels in loader:
-        outputs = model.predict(frame)
+    if model_type == 'keras':
+        inference_func = tf_keras_inference
+        custom_objects = {
+            "CountAccuracy": CountAccuracy,
+            "CountMAE": CountMAE,
+            "CountMeanRelativeAbsoluteError": CountMeanRelativeAbsoluteError
+        }
+        model = tf.keras.models.load_model(
+            model_path, custom_objects=custom_objects)
+    elif model_type == 'tflite':
+        inference_func = tflite_inference
+        model = tf.lite.Interpreter(model_path)
+
+    for frames, labels in loader:
+        outputs = inference_func(model, frames)
 
         for i in range(len(labels)):
             predicted_img = np.array(outputs[i])
@@ -106,3 +162,39 @@ def validate_model_with_real_number_of_persons(
     print(f'mse_rounded: {mse_rounded}')
 
     return model_accuracy, model_f1_score, confusion_matrix
+
+
+def inference_tflite(model_path: str, input_data: np.ndarray) -> np.ndarray:
+    # Load the TFLite model and allocate tensors.
+    interpreter = tf.lite.Interpreter(model_path)
+    interpreter.allocate_tensors()
+
+    # Get input and output tensors.
+    input_details = interpreter.get_input_details()
+    output_details = interpreter.get_output_details()
+    
+    print(input_details)
+    print(output_details)
+    
+    in_scale = input_details[0]['quantization'][0]
+    in_zero_point = input_details[0]['quantization'][1]
+    in_dtype = input_details[0]['dtype']
+    
+    if (in_scale, in_zero_point) != (0.0, 0):
+        input_data = input_data / in_scale + in_zero_point
+    
+    interpreter.set_tensor(input_details[0]['index'], input_data.astype(in_dtype))
+
+    interpreter.invoke()
+
+    # The function `get_tensor()` returns a copy of the tensor data.
+    # Use `tensor()` in order to get a pointer to the tensor.
+    output_data = interpreter.get_tensor(output_details[0]['index'])
+    
+    out_scale = output_details[0]['quantization'][0]
+    out_zero_point = output_details[0]['quantization'][1]
+    
+    if (out_scale, out_zero_point) != (0.0, 0):
+        output_data = (output_data - out_zero_point) * out_scale
+
+    return output_data

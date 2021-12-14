@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import neptune.new as neptune
 from neptune.new.integrations.tensorflow_keras import NeptuneCallback
 
-from model import UNet, check_model_prediction, validate_model_with_real_number_of_persons, CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
+from model import UNet, check_model_prediction, evaluate, CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
 from utils import load_data_for_labeled_batches, AugmentedBatchesTrainingData, ThermalDataset
 
 
@@ -22,8 +22,9 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 @click.command()
 @click.option('-p', '--config_path', help='Path to file with config', type=str)
+@click.option('-f', '--in_out_filters', help='Input/Output filters number', type=int)
 @click.option('--log_neptune', help='Path to file with config', type=bool)
-def train(config_path: str, log_neptune: bool):
+def train(config_path: str, in_out_filters: int, log_neptune: bool):
     print(f'TensorFlow version: {tf.__version__}')
     print(tf.config.list_physical_devices('GPU'))
 
@@ -46,6 +47,7 @@ def train(config_path: str, log_neptune: bool):
             "input_shape": config['model']['input_shape'],
             "batch_norm": config['model']['batch_norm'],
             "conv_transpose": config['model']['conv_transpose'],
+            "filters": in_out_filters,
             "optimizer": config['model']['optimizer'],
             "loss": config['model']['loss'],
             "metrics": config['model']['metrics'],
@@ -82,6 +84,7 @@ def train(config_path: str, log_neptune: bool):
 
     model = UNet(
         input_shape=config['model']['input_shape'],
+        in_out_filters=in_out_filters,
         batch_norm=config['model']['batch_norm'],
         conv_transpose=config['model']['conv_transpose']
     )
@@ -92,9 +95,9 @@ def train(config_path: str, log_neptune: bool):
         metrics=[
             MeanAbsoluteError(name='mae'), 
             MeanSquaredError(name='mse'), 
-            CountAccuracy(config, name='count_acc'),
-            CountMAE(config, name='count_mae'),
-            CountMeanRelativeAbsoluteError(config, name='count_mrae')
+            CountAccuracy(name='count_acc'),
+            CountMAE(name='count_mae'),
+            CountMeanRelativeAbsoluteError(name='count_mrae')
         ]
     )
 
@@ -106,7 +109,8 @@ def train(config_path: str, log_neptune: bool):
 
     callbacks = [
         tf.keras.callbacks.EarlyStopping(
-            monitor='val_loss', patience=config['model']['early_stopping_patience'], restore_best_weights=True)
+            monitor='val_loss', patience=config['model']['early_stopping_patience'], restore_best_weights=True),
+        tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=5)
     ]
 
     if log_neptune:
@@ -124,9 +128,12 @@ def train(config_path: str, log_neptune: bool):
 
     model.save(f'./models/{model_save_name}.h5')
 
-    test_acc, test_f1, test_cm = validate_model_with_real_number_of_persons(model, test_data_gen, config)
-    train_acc, train_f1, train_cm = validate_model_with_real_number_of_persons(model, train_data_gen, config)
-    val_acc, val_f1, val_cm = validate_model_with_real_number_of_persons(model, val_data_gen, config)
+    print('Test data:')
+    test_acc, test_f1, test_cm = evaluate(f'./models/{model_save_name}.h5', 'keras', test_data_gen, config)
+    print('Train data:')
+    train_acc, train_f1, train_cm = evaluate(f'./models/{model_save_name}.h5', 'keras', train_data_gen, config)
+    print('Validation data:')
+    val_acc, val_f1, val_cm = evaluate(f'./models/{model_save_name}.h5', 'keras', val_data_gen, config)
 
     for cm, cm_name in [(test_cm, 'test'), (train_cm, 'train'), (val_cm, 'val')]:
         plt.figure(figsize=(5,4))
@@ -140,7 +147,7 @@ def train(config_path: str, log_neptune: bool):
         plt.savefig(f'./{cm_name}_confusion_matrix.png')
 
     count, output_frame = check_model_prediction(model, config)
-    print(f'People count for raw frame: {count}')
+    print(f'People count for raw frame: {round(count, 4)}')
 
     plt.figure(figsize=(16, 12))
     plt.imshow(output_frame[0][..., 0])

@@ -1,8 +1,8 @@
 model:
-  model_save_name: "thermo_tf_conv_transpose"
+  model_save_name: "thermo_tf"
 
-  batch_norm: True
-  conv_transpose: True
+  batch_norm: False
+  conv_transpose: False
   input_shape: [24,32,1]
 
   optimizer: "adam"
