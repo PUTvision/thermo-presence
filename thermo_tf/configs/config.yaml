@@ -9,7 +9,7 @@ model:
   loss: "mae"
   metrics: ["mae", "mse"]
 
-  batch_size: 32
+  batch_size: 128
   epochs: 100
   early_stopping_patience: 10
 

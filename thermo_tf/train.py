@@ -16,15 +16,19 @@ from utils import load_data_for_labeled_batches, AugmentedBatchesTrainingData, T
 
 
 physical_devices = tf.config.list_physical_devices('GPU')
-assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
-tf.config.experimental.set_memory_growth(physical_devices[0], True)
+# assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
+# tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 
 @click.command()
 @click.option('-p', '--config_path', help='Path to file with config', type=str)
 @click.option('-f', '--in_out_filters', help='Input/Output filters number', type=int)
-@click.option('--log_neptune', help='Path to file with config', type=bool)
-def train(config_path: str, in_out_filters: int, log_neptune: bool):
+@click.option('--batch_norm', help='Use batch normalization', type=bool)
+@click.option('--conv_transpose', help='Use conv_transpose layer', type=bool)
+@click.option('--squeeze', help='Squeeze more unet', type=bool)
+@click.option('--double_double_conv', help='Use twice double conv if unet is not squeezed', type=bool, default=True)
+@click.option('--log_neptune', help='Path to file with config', type=bool, default=True)
+def train(config_path, in_out_filters, batch_norm, conv_transpose, squeeze, double_double_conv, log_neptune):
     print(f'TensorFlow version: {tf.__version__}')
     print(tf.config.list_physical_devices('GPU'))
 
@@ -45,8 +49,10 @@ def train(config_path: str, in_out_filters: int, log_neptune: bool):
         run["model/config"] = {
             "model_name": config['model']['model_save_name'],
             "input_shape": config['model']['input_shape'],
-            "batch_norm": config['model']['batch_norm'],
-            "conv_transpose": config['model']['conv_transpose'],
+            "batch_norm": batch_norm,
+            "conv_transpose": conv_transpose,
+            "squeeze": squeeze,
+            "double_double_conv": double_double_conv,
             "filters": in_out_filters,
             "optimizer": config['model']['optimizer'],
             "loss": config['model']['loss'],
@@ -85,8 +91,10 @@ def train(config_path: str, in_out_filters: int, log_neptune: bool):
     model = UNet(
         input_shape=config['model']['input_shape'],
         in_out_filters=in_out_filters,
-        batch_norm=config['model']['batch_norm'],
-        conv_transpose=config['model']['conv_transpose']
+        batch_norm=batch_norm,
+        conv_transpose=conv_transpose,
+        squeeze=squeeze,
+        double_double_conv=double_double_conv
     )
 
     model.compile(
@@ -126,14 +134,14 @@ def train(config_path: str, in_out_filters: int, log_neptune: bool):
 
     eval_metrics = model.evaluate(test_data_gen)
 
-    model.save(f'./models/{model_save_name}.h5')
+    model.save(f'./{model_save_name}.h5')
 
     print('Test data:')
-    test_acc, test_f1, test_cm = evaluate(f'./models/{model_save_name}.h5', 'keras', test_data_gen, config)
+    test_acc, test_f1, test_cm = evaluate(f'./{model_save_name}.h5', 'keras', test_data_gen, config)
     print('Train data:')
-    train_acc, train_f1, train_cm = evaluate(f'./models/{model_save_name}.h5', 'keras', train_data_gen, config)
+    train_acc, train_f1, train_cm = evaluate(f'./{model_save_name}.h5', 'keras', train_data_gen, config)
     print('Validation data:')
-    val_acc, val_f1, val_cm = evaluate(f'./models/{model_save_name}.h5', 'keras', val_data_gen, config)
+    val_acc, val_f1, val_cm = evaluate(f'./{model_save_name}.h5', 'keras', val_data_gen, config)
 
     for cm, cm_name in [(test_cm, 'test'), (train_cm, 'train'), (val_cm, 'val')]:
         plt.figure(figsize=(5,4))
@@ -157,7 +165,7 @@ def train(config_path: str, in_out_filters: int, log_neptune: bool):
         for i, metric in enumerate(eval_metrics):
             run["model/eval/{}".format(model.metrics_names[i])] = metric
 
-        run["model/model"].upload(f'./models/{model_save_name}.h5')
+        run["model/model"].upload(f'./{model_save_name}.h5')
         run["model/eval/accuracy"] = test_acc
         run["model/eval/F1"] = test_f1
         run["model/eval/raw_confusion_matrix"] = test_cm
