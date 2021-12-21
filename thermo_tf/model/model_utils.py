@@ -1,4 +1,5 @@
-from typing import Tuple
+import time
+from typing import Tuple, Union
 
 import numpy as np
 import tensorflow as tf
@@ -26,10 +27,16 @@ def check_model_prediction(model: tf.keras.Model, config: dict) -> Tuple[float, 
 
 
 def tf_keras_inference(model: tf.keras.Model, inputs: np.ndarray) -> np.ndarray:
-    return model.predict(inputs)
+    inference_start = time.time()
+    outputs = model.predict(inputs)
+    inference_time = time.time() - inference_start
+
+    return outputs, inference_time
 
 
-def tflite_inference(interpreter: tf.lite.Interpreter, inputs: np.ndarray) -> np.ndarray:
+def tflite_inference(interpreter: Union[tf.lite.Interpreter, str], inputs: np.ndarray) -> np.ndarray:
+    if type(interpreter) == str:
+        interpreter = tf.lite.Interpreter(interpreter)
     # TFLite allocate tensors.
     interpreter.allocate_tensors()
 
@@ -45,6 +52,7 @@ def tflite_inference(interpreter: tf.lite.Interpreter, inputs: np.ndarray) -> np
     out_zero_point = output_details[0]['quantization'][1]
 
     outputs = []
+    inference_time = 0
 
     for input_data in inputs:
         if (in_scale, in_zero_point) != (0.0, 0):
@@ -53,7 +61,9 @@ def tflite_inference(interpreter: tf.lite.Interpreter, inputs: np.ndarray) -> np
         interpreter.set_tensor(
             input_details[0]['index'], [input_data.astype(in_dtype)])
 
+        inference_start = time.time()
         interpreter.invoke()
+        inference_time += time.time() - inference_start
 
         # The function `get_tensor()` returns a copy of the tensor data.
         # Use `tensor()` in order to get a pointer to the tensor.
@@ -64,7 +74,7 @@ def tflite_inference(interpreter: tf.lite.Interpreter, inputs: np.ndarray) -> np
 
         outputs.append(output_data)
 
-    return np.vstack(outputs)
+    return np.vstack(outputs), inference_time
 
 
 def evaluate(
@@ -104,8 +114,10 @@ def evaluate(
         inference_func = tflite_inference
         model = tf.lite.Interpreter(model_path)
 
+    inference_time = 0
     for frames, labels in loader:
-        outputs = inference_func(model, frames)
+        outputs, batch_inference_time = inference_func(model, frames)
+        inference_time += batch_inference_time
 
         for i in range(len(labels)):
             predicted_img = np.array(outputs[i])
@@ -149,7 +161,12 @@ def evaluate(
     model_f1_score = f1_score(vec_real_number_of_persons, np.round(
         vec_predicted_number_of_persons).astype(int), average='weighted')
 
+    average_inference_time = inference_time / tested_frames
+    average_fps = 1 / average_inference_time
+
     print(f"Number of tested frames: {tested_frames}")
+    print(f"Average inference time: {round(average_inference_time, 6)}")
+    print(f"Average FPS: {round(average_fps,4)}")
     print(f"Model Accuracy = {model_accuracy}")
     print(f"Model F1 score = {model_f1_score}")
     print('Predicted:\n' + '\n'.join([f'   {count} frames with {no} persons' for no,
@@ -162,39 +179,3 @@ def evaluate(
     print(f'mse_rounded: {mse_rounded}')
 
     return model_accuracy, model_f1_score, confusion_matrix
-
-
-def inference_tflite(model_path: str, input_data: np.ndarray) -> np.ndarray:
-    # Load the TFLite model and allocate tensors.
-    interpreter = tf.lite.Interpreter(model_path)
-    interpreter.allocate_tensors()
-
-    # Get input and output tensors.
-    input_details = interpreter.get_input_details()
-    output_details = interpreter.get_output_details()
-    
-    print(input_details)
-    print(output_details)
-    
-    in_scale = input_details[0]['quantization'][0]
-    in_zero_point = input_details[0]['quantization'][1]
-    in_dtype = input_details[0]['dtype']
-    
-    if (in_scale, in_zero_point) != (0.0, 0):
-        input_data = input_data / in_scale + in_zero_point
-    
-    interpreter.set_tensor(input_details[0]['index'], input_data.astype(in_dtype))
-
-    interpreter.invoke()
-
-    # The function `get_tensor()` returns a copy of the tensor data.
-    # Use `tensor()` in order to get a pointer to the tensor.
-    output_data = interpreter.get_tensor(output_details[0]['index'])
-    
-    out_scale = output_details[0]['quantization'][0]
-    out_zero_point = output_details[0]['quantization'][1]
-    
-    if (out_scale, out_zero_point) != (0.0, 0):
-        output_data = (output_data - out_zero_point) * out_scale
-
-    return output_data
