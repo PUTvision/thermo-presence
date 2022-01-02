@@ -10,3 +10,4 @@ sklearn
 tensorflow
 tensorflow-addons
 tf2onnx
+tqdm
