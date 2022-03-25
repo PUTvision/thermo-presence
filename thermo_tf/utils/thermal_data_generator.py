@@ -8,10 +8,11 @@ from .data_utils import AugmentedBatchesTrainingData, get_img_reconstructed_from
 
 class ThermalDataset(tf.keras.utils.Sequence):
 
-    def __init__(self, augmented_data: AugmentedBatchesTrainingData, batch_size:int=16, shuffle:bool=False):
+    def __init__(self, augmented_data: AugmentedBatchesTrainingData, batch_size:int=16, shuffle:bool=False, return_count:bool=False):
         self.augmented_data = AugmentedBatchesTrainingData
         self.batch_size = batch_size
         self.shuffle = shuffle
+        self.return_count = return_count
         self._index_to_batch_and_subindex_map = {}
         
         self._cache = {}
@@ -29,6 +30,7 @@ class ThermalDataset(tf.keras.utils.Sequence):
         if batch_idx not in self._cache:
             frames = []
             reconstructions = []
+            number_of_people = []
             for i in range(self.batch_size):
                 idx = batch_idx * self.batch_size + i
                 batch, subindex = self._index_to_batch_and_subindex_map[idx]
@@ -41,7 +43,16 @@ class ThermalDataset(tf.keras.utils.Sequence):
                 img_reconstructed_3d = img_reconstructed[np.newaxis, :, :]
                 reconstructions.append(img_reconstructed_3d)
 
-            result = np.vstack(frames), np.vstack(reconstructions)
+                nop = self.get_number_of_persons_for_frame(batch_idx*self.batch_size + i)
+                nop_one_hot = np.zeros(6)
+                nop_one_hot[nop] = 1
+                number_of_people.append(nop_one_hot.astype(int))
+
+            if self.return_count:
+                result = np.vstack(frames), np.vstack(number_of_people)
+            else:
+                result = np.vstack(frames), np.vstack(reconstructions)
+
             self._cache[batch_idx] = result
             
         return self._cache[batch_idx]

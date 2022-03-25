@@ -97,6 +97,7 @@ def evaluate(
     mse_sum = 0
     mae_rounded_sum = 0
     mse_rounded_sum = 0
+    mrae_sum = 0
 
     vec_real_number_of_persons = []
     vec_predicted_number_of_persons = []
@@ -138,6 +139,8 @@ def evaluate(
             rounded_error = abs(pred_label - true_label)
             mae_rounded_sum += rounded_error
             mse_rounded_sum += rounded_error*rounded_error
+            if rounded_error != 0:
+                mrae_sum += (rounded_error + 1) / (true_label + 1) if true_label == 0 else rounded_error / true_label
 
             number_of_frames_with_n_persons[pred_label] = \
                 number_of_frames_with_n_persons.get(pred_label, 0) + 1
@@ -156,6 +159,7 @@ def evaluate(
     mse = mse_sum / tested_frames
     mae_rounded = mae_rounded_sum / tested_frames
     mse_rounded = mse_rounded_sum / tested_frames
+    mrae = mrae_sum / tested_frames
 
     model_accuracy = correct_count / tested_frames
     model_f1_score = f1_score(vec_real_number_of_persons, np.round(
@@ -177,5 +181,6 @@ def evaluate(
     print(f'mse: {mse}')
     print(f'mae_rounded: {mae_rounded}')
     print(f'mse_rounded: {mse_rounded}')
+    print(f'mrae: {mrae}')
 
     return model_accuracy, model_f1_score, confusion_matrix
