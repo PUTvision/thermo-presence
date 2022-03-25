@@ -274,6 +274,4 @@ tmp/
 *.h264
 thermo_tf/.neptune/*
 thermo_tf/configs/credentials.yaml
-thermo_tf/data/*
-thermo_tf/labels/*
-thermo_tf/models/*
+thermo_tf/dataset*

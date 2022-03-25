@@ -11,8 +11,11 @@ import matplotlib.pyplot as plt
 import neptune.new as neptune
 from neptune.new.integrations.tensorflow_keras import NeptuneCallback
 
-from model import UNet, check_model_prediction, evaluate, CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
-from utils import load_data_for_labeled_batches, AugmentedBatchesTrainingData, ThermalDataset
+from model import UNet
+from metrics import CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
+from data_generator.thermal_data_generator import ThermalDataset
+from utils.model_utils import check_model_prediction, evaluate
+from utils.data_utils import load_data_for_labeled_batches, AugmentedBatchesTrainingData
 
 
 physical_devices = tf.config.list_physical_devices('GPU')
