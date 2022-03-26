@@ -9,11 +9,12 @@ model:
   loss: "mae"
   metrics: ["mae", "mse"]
 
-  batch_size: 128
-  epochs: 100
-  early_stopping_patience: 10
+  batch_size: 64
+  epochs: 1000
+  early_stopping_patience: 25
 
 dataset:
+  data_generator: "v2" # v1 or v2
   training_dirs: [
     "006__11_44_59", "007__11_48_59", "008__11_52_59", "009__11_57_00",  
     "000__14_15_19", "001__14_19_19", "002__14_23_19", "003__14_27_20", "004__14_31_20",
@@ -37,7 +38,7 @@ dataset:
   IR_camera_resolution: [24, 32]
   temperature_normalization_min: 20
   temperature_normalization_max: 35
-  sum_of_values_for_one_person: 51.35
+  sum_of_values_for_one_person: 50
   max_people_count: 6
 
   raw_frame: [

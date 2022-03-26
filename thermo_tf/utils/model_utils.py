@@ -5,8 +5,8 @@ import numpy as np
 import tensorflow as tf
 from sklearn.metrics import f1_score
 
-from utils import ThermalDataset
-from model import CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
+from data_generator.thermal_data_generator import ThermalDataset
+from metrics import CountAccuracy, CountMAE, CountMSE, CountMeanRelativeAbsoluteError
 
 
 def check_model_prediction(model: tf.keras.Model, config: dict) -> Tuple[float, np.ndarray]:
@@ -107,6 +107,7 @@ def evaluate(
         custom_objects = {
             "CountAccuracy": CountAccuracy,
             "CountMAE": CountMAE,
+            "CountMSE": CountMSE,
             "CountMeanRelativeAbsoluteError": CountMeanRelativeAbsoluteError
         }
         model = tf.keras.models.load_model(
