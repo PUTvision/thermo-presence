@@ -1,5 +1,7 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
+from pathlib import Path
 
 import yaml
 import click
@@ -11,16 +13,12 @@ import matplotlib.pyplot as plt
 import neptune.new as neptune
 from neptune.new.integrations.tensorflow_keras import NeptuneCallback
 
-from model import UNet
-from metrics import CountAccuracy, CountMAE, CountMeanRelativeAbsoluteError
+from models import UNet
+from metrics import CountAccuracy, CountMAE, CountMSE, CountMeanRelativeAbsoluteError
 from data_generator.thermal_data_generator import ThermalDataset
-from utils.model_utils import check_model_prediction, evaluate
+from data_generator.thermal_data_generator_v2 import ThermalDataset as ThermalDatasetv2
 from utils.data_utils import load_data_for_labeled_batches, AugmentedBatchesTrainingData
-
-
-physical_devices = tf.config.list_physical_devices('GPU')
-# assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
-# tf.config.experimental.set_memory_growth(physical_devices[0], True)
+from utils.model_utils import check_model_prediction, evaluate
 
 
 @click.command()
@@ -67,29 +65,45 @@ def train(config_path, in_out_filters, batch_norm, conv_transpose, squeeze, doub
 
         run["model/config_file"].upload(config_path)
 
-    training_data = load_data_for_labeled_batches(
-        labeled_batch_dirs=config['dataset']["training_dirs"])
-    validation_data = load_data_for_labeled_batches(
-        labeled_batch_dirs=config['dataset']["validation_dirs"])
-    test_data = load_data_for_labeled_batches(
-        labeled_batch_dirs=config['dataset']["test_dirs"])
+    if config['dataset']['data_generator'] == 'v1':
+        training_data = load_data_for_labeled_batches(
+            labeled_batch_dirs=config['dataset']["training_dirs"],
+            project_data_dir='./dataset/'
+        )
+        validation_data = load_data_for_labeled_batches(
+            labeled_batch_dirs=config['dataset']["validation_dirs"],
+            project_data_dir='./dataset/'
+        )
+        test_data = load_data_for_labeled_batches(
+            labeled_batch_dirs=config['dataset']["test_dirs"],
+            project_data_dir='./dataset/'
+        )
 
-    augmented_data_training = AugmentedBatchesTrainingData()
-    augmented_data_training.add_training_batch(training_data)
+        augmented_data_training = AugmentedBatchesTrainingData()
+        augmented_data_training.add_training_batch(training_data)
 
-    augmented_data_validation = AugmentedBatchesTrainingData()
-    augmented_data_validation.add_training_batch(
-        validation_data, flip_and_rotate=False)
+        augmented_data_validation = AugmentedBatchesTrainingData()
+        augmented_data_validation.add_training_batch(validation_data, flip_and_rotate=False)
 
-    augmented_data_test = AugmentedBatchesTrainingData()
-    augmented_data_test.add_training_batch(test_data, flip_and_rotate=False)
+        augmented_data_test = AugmentedBatchesTrainingData()
+        augmented_data_test.add_training_batch(test_data, flip_and_rotate=False)
 
-    train_data_gen = ThermalDataset(
-        augmented_data_training, batch_size=config['model']['batch_size'])
-    val_data_gen = ThermalDataset(
-        augmented_data_validation, batch_size=config['model']['batch_size'])
-    test_data_gen = ThermalDataset(
-        augmented_data_test, batch_size=config['model']['batch_size'])
+        train_data_gen = ThermalDataset(augmented_data_training, batch_size=config['model']['batch_size'])
+        val_data_gen = ThermalDataset(augmented_data_validation, batch_size=config['model']['batch_size'])
+        test_data_gen = ThermalDataset(augmented_data_test, batch_size=1)
+
+    elif config['dataset']['data_generator'] == 'v2':
+        train_data_gen = ThermalDatasetv2(data_path=Path('./datasetv2'), sequences_names=config['dataset']["training_dirs"],
+                                          person_point_weight=config['dataset']['sum_of_values_for_one_person'], 
+                                          batch_size=config['model']['batch_size'])
+        val_data_gen = ThermalDatasetv2(data_path=Path('./datasetv2'), sequences_names=config['dataset']["validation_dirs"],
+                                        person_point_weight=config['dataset']['sum_of_values_for_one_person'], 
+                                        batch_size=config['model']['batch_size'])
+        test_data_gen = ThermalDatasetv2(data_path=Path('./datasetv2'), sequences_names=config['dataset']["test_dirs"],
+                                         person_point_weight=config['dataset']['sum_of_values_for_one_person'], batch_size=1)
+    else:
+        raise ValueError(
+            f"Unsupported version of data generator: {config['dataset']['data_generator']}")
 
     model = UNet(
         input_shape=config['model']['input_shape'],
@@ -104,11 +118,12 @@ def train(config_path, in_out_filters, batch_norm, conv_transpose, squeeze, doub
         optimizer=config['model']['optimizer'],
         loss=config['model']['loss'],
         metrics=[
-            MeanAbsoluteError(name='mae'), 
-            MeanSquaredError(name='mse'), 
-            CountAccuracy(name='count_acc'),
-            CountMAE(name='count_mae'),
-            CountMeanRelativeAbsoluteError(name='count_mrae')
+            MeanAbsoluteError(name='mae'),
+            MeanSquaredError(name='mse'),
+            CountAccuracy(person_point_weight=config['dataset']['sum_of_values_for_one_person'], name='count_acc'),
+            CountMAE(person_point_weight=config['dataset']['sum_of_values_for_one_person'], name='count_mae'),
+            CountMSE(person_point_weight=config['dataset']['sum_of_values_for_one_person'], name='count_mse'),
+            CountMeanRelativeAbsoluteError(person_point_weight=config['dataset']['sum_of_values_for_one_person'], name='count_mrae')
         ]
     )
 
@@ -147,10 +162,10 @@ def train(config_path, in_out_filters, batch_norm, conv_transpose, squeeze, doub
     val_acc, val_f1, val_cm = evaluate(f'./{model_save_name}.h5', 'keras', val_data_gen, config)
 
     for cm, cm_name in [(test_cm, 'test'), (train_cm, 'train'), (val_cm, 'val')]:
-        plt.figure(figsize=(5,4))
+        plt.figure(figsize=(5, 4))
         sns.heatmap(
-            cm, annot=True, cmap="Blues", fmt='0.0f', 
-            xticklabels=np.arange(config['dataset']["max_people_count"]+1), 
+            cm, annot=True, cmap="Blues", fmt='0.0f',
+            xticklabels=np.arange(config['dataset']["max_people_count"]+1),
             yticklabels=np.arange(config['dataset']["max_people_count"]+1)
         )
         plt.xlabel('Labels')

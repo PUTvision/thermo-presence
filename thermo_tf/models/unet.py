@@ -53,18 +53,16 @@ def UNet(
     in_out_filters: int = 16,
     batch_norm: bool = False,
     conv_transpose: bool = False,
-    squeeze: bool = True,
-    double_double_conv: bool = True,
+    squeeze: bool = False,
+    double_double_conv: bool = False,
 ) -> tf.keras.Model:
 
     x = tf.keras.Input(shape=input_shape)
 
-    y1 = DoubleConv(x, filters=in_out_filters, kernel_size=3,
-                    strides=1, batch_norm=batch_norm)
+    y1 = DoubleConv(x, filters=in_out_filters, kernel_size=3, strides=1, batch_norm=batch_norm)
 
     y2 = tf.keras.layers.MaxPool2D(pool_size=(2, 2), strides=(2, 2))(y1)
-    y2 = DoubleConv(y2, filters=2*in_out_filters, kernel_size=3,
-                    strides=1, batch_norm=batch_norm)
+    y2 = DoubleConv(y2, filters=2*in_out_filters, kernel_size=3, strides=1, batch_norm=batch_norm)
 
     if squeeze:
         y3 = tf.keras.layers.MaxPool2D(pool_size=(2, 2), strides=(2, 2))(y2)
@@ -82,10 +80,8 @@ def UNet(
 
     y = tf.keras.layers.Concatenate(axis=-1)([y1, y23])
 
-    y = DoubleConv(y, filters=in_out_filters, kernel_size=3,
-                   strides=1, batch_norm=batch_norm)
-    y = tf.keras.layers.Conv2D(filters=1, kernel_size=(
-        3, 3), strides=(1, 1), padding='same')(y)
+    y = DoubleConv(y, filters=in_out_filters, kernel_size=3, strides=1, batch_norm=batch_norm)
+    y = tf.keras.layers.Conv2D(filters=1, kernel_size=(3, 3), strides=(1, 1), padding='same')(y)
 
     model = tf.keras.Model(inputs=x, outputs=y)
 
