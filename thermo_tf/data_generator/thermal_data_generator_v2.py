@@ -10,11 +10,12 @@ from scipy.ndimage import gaussian_filter
 
 class ThermalDataset(tf.keras.utils.Sequence):
     def __init__(self, data_path: Path, sequences_names: Sequence[str], person_point_weight: float,
-                 batch_size: int, augment: bool = False):
+                 batch_size: int, augment: bool = False, task: str = 'density_estimation'):
         self._frames = self._load_frames(data_path, sequences_names)
         self._labels = self._load_labels(data_path, sequences_names)
         self._person_point_weight = person_point_weight
         self._batch_size = batch_size
+        self.task = task
         self._augment = augment
         self._augmentations = Compose([
             Affine(scale=(0.9, 1.1), rotate=(-15, 15), shear=(-5, 5), translate_percent=(-10, 10)),
@@ -66,6 +67,7 @@ class ThermalDataset(tf.keras.utils.Sequence):
     def __getitem__(self, batch_idx: int) -> Tuple[tf.Tensor, tf.Tensor]:
         frames = []
         masks = []
+        number_of_people = []
         for i in range(self._batch_size):
             idx = batch_idx * self._batch_size + i
 
@@ -82,9 +84,17 @@ class ThermalDataset(tf.keras.utils.Sequence):
             frame, keypoints = transformed['image'], transformed['keypoints']
             mask = self.generate_mask(keypoints, frame.shape, self._person_point_weight)
 
+            nop = len(keypoints)
+            nop_one_hot = np.zeros(6)
+            nop_one_hot[nop] = 1
+
             frames.append(frame)
             masks.append(mask)
+            number_of_people.append(nop_one_hot.astype(int))
 
-        result = np.expand_dims(np.stack(frames), axis=-1), np.vstack(masks)
+        if self.task == 'classification':
+            result = np.expand_dims(np.stack(frames), axis=-1), np.vstack(number_of_people)
+        else:
+            result = np.expand_dims(np.stack(frames), axis=-1), np.vstack(masks)
 
         return result

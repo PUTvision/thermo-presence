@@ -8,11 +8,11 @@ from utils.data_utils import AugmentedBatchesTrainingData, get_img_reconstructed
 
 class ThermalDataset(tf.keras.utils.Sequence):
 
-    def __init__(self, augmented_data: AugmentedBatchesTrainingData, batch_size:int=16, shuffle:bool=False, classification:bool=False):
+    def __init__(self, augmented_data: AugmentedBatchesTrainingData, batch_size:int=16, shuffle:bool=False, task:str='density_estimation'):
         self.augmented_data = AugmentedBatchesTrainingData
         self.batch_size = batch_size
         self.shuffle = shuffle
-        self.classification = classification
+        self.task = task
         self._index_to_batch_and_subindex_map = {}
         
         self._cache = {}
@@ -48,7 +48,7 @@ class ThermalDataset(tf.keras.utils.Sequence):
                 nop_one_hot[nop] = 1
                 number_of_people.append(nop_one_hot.astype(int))
 
-            if self.classification:
+            if self.task == 'classification':
                 result = np.vstack(frames), np.vstack(number_of_people)
             else:
                 result = np.vstack(frames), np.vstack(reconstructions)

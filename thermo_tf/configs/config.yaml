@@ -1,12 +1,21 @@
 model:
   model_save_name: "thermo_tf"
 
+  training_type: "density_estimation" # density_estimation or classification
+
+  model_type: "unet" # unet, kraft_unet, metwaly_fnn
+
+  in_out_filters: 16
+
   batch_norm: False
   conv_transpose: False
+  squeeze: False
+  double_double_conv: True
+
   input_shape: [24,32,1]
 
   optimizer: "adam"
-  loss: "mae"
+  loss: "mae" # mae, mse, categorical_crossentropy
   metrics: ["mae", "mse"]
 
   batch_size: 64
@@ -14,7 +23,7 @@ model:
   early_stopping_patience: 25
 
 dataset:
-  data_generator: "v2" # v1 or v2
+  data_generator: "v1" # v1 or v2
   training_dirs: [
     "006__11_44_59", "007__11_48_59", "008__11_52_59", "009__11_57_00",  
     "000__14_15_19", "001__14_19_19", "002__14_23_19", "003__14_27_20", "004__14_31_20",
