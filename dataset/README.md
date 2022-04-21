@@ -44,7 +44,13 @@ import pandas as pd
 
 
 df = pd.read_hdf('./dataset/hdfs/007__13_22_20.h5')
+df.head()
 ```
+
+<p align="center">
+    <img src="../README/df_head.png" />
+</p>
+
 
 ### Visualize an example thermal image with corresponding annotations
 
