@@ -44,6 +44,10 @@ See [data_collection/README.md](./data_collection/README.md)
 Software to process/analyse the data.  
 See [data_processing/README.md](./data_processing/README.md)
 
+## Hardware evaluation
+Script to evaluate model on Thermo Presence dataset.
+Tested on [Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) with [Intel Neural Compute Stick 2](https://ark.intel.com/content/www/us/en/ark/products/140109/intel-neural-compute-stick-2.html) and [Google Coral USB Accelerator](https://coral.ai/products/accelerator/).
+See [evaluation/README.md](./evaluation/README.md)
 
 ## Citation
 
