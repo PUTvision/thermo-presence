@@ -1,10 +1,49 @@
 import os
 import time
 from functools import partial
+from typing import Tuple, List
 
 import click
 import numpy as np
+import pandas as pd
+from scipy.ndimage import gaussian_filter
 from tqdm import tqdm
+
+
+TEST_DIRS = ["008__13_26_20", "009__14_51_20", "010__14_55_20", "011__14_59_20", "015__13_54_21"]
+SINGLE_BLOB_MEAN_VALUE = 51.35
+IMG_SHAPE = [24,32]
+
+
+def generate_mask(keypoints: List[Tuple[int, int]], sigma: Tuple[int, int] = (3,3)):
+    label = np.zeros(IMG_SHAPE, dtype=np.float32)
+
+    for key in keypoints:
+        x, y = np.clip(list(map(round, key)), [0,0], IMG_SHAPE)
+        label[y, x] = SINGLE_BLOB_MEAN_VALUE
+
+    label = gaussian_filter(label, sigma=sigma, order=0)
+
+    return np.array([label])
+
+
+def load_test_data(data_path: str) -> Tuple[np.ndarray, np.ndarray]:
+    test_input_data = []
+    test_output_data = []
+
+    for filename in TEST_DIRS:
+        df = pd.read_hdf(f'{data_path}/{filename}.h5')
+        data = df['data'].to_numpy()
+        points = df['points'].to_numpy()
+
+        test_input_data.append(
+            np.stack([np.array(data[i], dtype=float) for i in range(len(data))])
+        )
+        test_output_data.append(
+            np.stack([np.array(generate_mask(points[i]), dtype=float) for i in range(len(points))])
+        )
+
+    return np.expand_dims(np.vstack(test_input_data), -1), np.vstack(test_output_data).reshape((-1, *IMG_SHAPE, 1))
 
 
 def tflite_inference(input_data, interpreter):
@@ -51,11 +90,9 @@ def myriad_inference(input_data, interpreter, input_blob):
 @click.command()
 @click.option('--inference_type', help='Inference framework (device)', type=click.Choice(['tflite', 'edgetpu', 'myriad'], case_sensitive=True))
 @click.option('--model_path', help='Path to model', type=str)
-@click.option('--validation_input', help='Path to validation input file', type=str, default='./validation_input_tf.npy')
-@click.option('--validation_output', help='Path to validation output file', type=str, default='./validation_output_tf.npy')
-def main(inference_type, model_path, validation_input, validation_output):
-    test_input_arr = np.load(validation_input)
-    test_output_arr = np.load(validation_output)
+@click.option('--data_path', help='Path to HDF files', type=str, default='../dataset/hdfs')
+def main(inference_type, model_path, data_path):
+    test_input_arr, test_output_arr = load_test_data(data_path)
     print(f'Test array shape: {test_input_arr.shape}')
 
     inference_full_time = 0.0
@@ -91,24 +128,24 @@ def main(inference_type, model_path, validation_input, validation_output):
         arr = test_input_arr[arr_num]
 
         test_output_mask, test_infer_time = inference_func(arr)
-        test_count = np.sum(test_output_mask) / 51.35
+        test_count = np.sum(test_output_mask) / SINGLE_BLOB_MEAN_VALUE
 
         inference_full_time += test_infer_time
         output_count.append(test_count)
         output_masks.append(test_output_mask)
 
     output_masks = np.vstack(output_masks)
-    np.save('arduino_output.npy', output_masks)
+    np.save(f'rpi_{inference_type}_output.npy', output_masks)
 
     input_size = test_output_arr.shape[1] * test_output_arr.shape[2] * test_output_arr.shape[3]
     MSE = np.sum(np.power(test_output_arr - output_masks, 2)) / input_size / test_input_arr.shape[0]
     MAE = np.sum(np.abs(test_output_arr - output_masks)) / input_size / test_input_arr.shape[0]
 
-    count_diff = np.sum(test_output_arr, axis=(1,2,3)) / 51.35 - output_count
+    count_diff = np.sum(test_output_arr, axis=(1,2,3)) / SINGLE_BLOB_MEAN_VALUE - output_count
     count_MSE = np.sum(np.power(count_diff, 2)) / test_input_arr.shape[0]
     count_MAE = np.sum(np.abs(count_diff)) / test_input_arr.shape[0]
 
-    count_rounded_diff = np.round(np.sum(test_output_arr, axis=(1,2,3)) / 51.35) - np.round(output_count)
+    count_rounded_diff = np.round(np.sum(test_output_arr, axis=(1,2,3)) / SINGLE_BLOB_MEAN_VALUE) - np.round(output_count)
     count_rounded_MSE = np.sum(np.power(count_rounded_diff, 2)) / test_input_arr.shape[0]
     count_rounded_MAE = np.sum(np.abs(count_rounded_diff)) / test_input_arr.shape[0]
 
