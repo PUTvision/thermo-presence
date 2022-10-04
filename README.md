@@ -20,6 +20,7 @@
 * [Dataset](#dataset)
 * [Data collection](#data-collection)
 * [Data processing](#data-processing)
+* [Hardware evaluation](#hardware-evaluation)
 * [Citation](#citation)
 
 ## Dataset
