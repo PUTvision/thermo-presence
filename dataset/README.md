@@ -1,6 +1,8 @@
 # Thermo Presence Dataset
 
-The Thermo Presence Dataset consists of thermal images with resolution 24x32 px and corresponding annotations in form of X and Y coordinates. Recorded data are in [hdfs](./hdfs) directory. Furthermore, collected frames are divided into sequences which then are split into training, validation, and test sets as follows:
+The Thermo Presence Dataset consists of thermal images with resolution 24x32 px and corresponding annotations in the form of X and Y coordinates. Recorded data are in [hdfs](./hdfs) directory. Raw data are available in the [cloud shared folder](https://chmura.put.poznan.pl/s/2NL2IJKuUuKn0yf). 
+
+Collected frames are divided into sequences which then are split into training, validation, and test sets as follows:
 
 ```
 training_dirs: [
