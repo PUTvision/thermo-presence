@@ -23,7 +23,7 @@
 * [Citation](#citation)
 
 ## Dataset
-Our dataset is publicly available in the [dataset](./dataset/) directory which consists of data (with thermal images) and labels (with corresponding people positions' coordinates) folders. Moreover, the [dataset/README.md](./dataset/README.md) includes training, validation and test sequences split and example data loading using Python. The table below shows the summary of training, validation, and test datasets considering the number of people in the frame.
+Our dataset is publicly available in the [dataset](./dataset/) directory in the form of HDF files which consist of data arrays (thermal images) and labels (people positions' coordinates). The raw thermal data and illustrative RGB images are available in the [cloud shared folder](https://chmura.put.poznan.pl/s/2NL2IJKuUuKn0yf). Moreover, the [dataset/README.md](./dataset/README.md) includes training, validation and test sequences split and example data loading using Python. The table below shows the summary of training, validation, and test datasets considering the number of people in the frame.
 
 <div align="center">
 

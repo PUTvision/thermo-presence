@@ -272,3 +272,4 @@ data_collection/data/
 tmp/
 *.avi
 *.h264
+model_conversion/models/*
